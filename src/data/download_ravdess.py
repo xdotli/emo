@@ -20,8 +20,10 @@ def download_file(url, filename):
     total_size = int(response.headers.get('content-length', 0))
     block_size = 1024  # 1 Kibibyte
     
+    filename_str = str(filename)  # Convert Path to string for tqdm
+    
     with open(filename, 'wb') as file, tqdm(
-            desc=filename,
+            desc=filename_str,
             total=total_size,
             unit='iB',
             unit_scale=True,
