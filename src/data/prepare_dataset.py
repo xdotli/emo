@@ -12,7 +12,7 @@ import numpy as np
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 
-def prepare_combined_dataset(data_dir, output_dir, use_iemocap=True, use_ravdess=True):
+def prepare_combined_dataset(data_dir, output_dir, use_iemocap=False, use_ravdess=False, use_crema_d=True):
     """Prepare a combined dataset from multiple sources."""
     data_dir = Path(data_dir)
     output_dir = Path(output_dir)
@@ -20,7 +20,7 @@ def prepare_combined_dataset(data_dir, output_dir, use_iemocap=True, use_ravdess
     
     dfs = []
     
-    # Load IEMOCAP dataset if available
+    # Load IEMOCAP dataset if available and requested
     if use_iemocap:
         iemocap_file = data_dir / "iemocap_dav_categorical.csv"
         if iemocap_file.exists():
@@ -31,7 +31,7 @@ def prepare_combined_dataset(data_dir, output_dir, use_iemocap=True, use_ravdess
         else:
             print(f"IEMOCAP dataset not found at {iemocap_file}")
     
-    # Load RAVDESS dataset if available
+    # Load RAVDESS dataset if available and requested
     if use_ravdess:
         ravdess_file = data_dir / "ravdess_full.csv"
         if ravdess_file.exists():
@@ -41,6 +41,17 @@ def prepare_combined_dataset(data_dir, output_dir, use_iemocap=True, use_ravdess
             dfs.append(df_ravdess)
         else:
             print(f"RAVDESS dataset not found at {ravdess_file}")
+    
+    # Load CREMA-D dataset if available and requested
+    if use_crema_d:
+        crema_d_file = data_dir / "crema_d_full.csv"
+        if crema_d_file.exists():
+            print(f"Loading CREMA-D dataset from {crema_d_file}")
+            df_crema_d = pd.read_csv(crema_d_file)
+            df_crema_d['dataset'] = 'crema_d'
+            dfs.append(df_crema_d)
+        else:
+            print(f"CREMA-D dataset not found at {crema_d_file}")
     
     # Combine datasets
     if not dfs:
@@ -83,10 +94,17 @@ def main():
     parser.add_argument("--output_dir", type=str, default="data/final", help="Directory to store final dataset")
     parser.add_argument("--use_iemocap", action="store_true", help="Use IEMOCAP dataset")
     parser.add_argument("--use_ravdess", action="store_true", help="Use RAVDESS dataset")
+    parser.add_argument("--use_crema_d", action="store_true", help="Use CREMA-D dataset")
     args = parser.parse_args()
     
     # Prepare combined dataset
-    prepare_combined_dataset(args.data_dir, args.output_dir, args.use_iemocap, args.use_ravdess)
+    prepare_combined_dataset(
+        args.data_dir, 
+        args.output_dir, 
+        args.use_iemocap, 
+        args.use_ravdess, 
+        args.use_crema_d
+    )
 
 if __name__ == "__main__":
     main()

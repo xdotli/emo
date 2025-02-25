@@ -16,6 +16,12 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS) is a va
 
 The RAVDESS is publicly available and can be downloaded automatically using the provided script.
 
+### CREMA-D
+
+The Crowd-sourced Emotional Multimodal Actors Dataset (CREMA-D) is a dataset of 7,442 original clips from 91 actors. These clips were from 48 male and 43 female actors between the ages of 20 and 74 coming from a variety of races and ethnicities. Actors spoke from a selection of 12 sentences. The sentences were presented using one of six different emotions (Anger, Disgust, Fear, Happy, Neutral, and Sad) and four different emotion levels (Low, Medium, High, and Unspecified).
+
+The CREMA-D dataset is publicly available and can be downloaded automatically using the provided script.
+
 ## Usage
 
 ### Download and Process IEMOCAP
@@ -30,10 +36,16 @@ python src/data/download_iemocap.py --data_dir=data/raw --output_dir=data/proces
 python src/data/download_ravdess.py --data_dir=data/raw --output_dir=data/processed
 ```
 
+### Download and Process CREMA-D
+
+```bash
+python src/data/download_crema_d.py --data_dir=data/raw --output_dir=data/processed
+```
+
 ### Prepare Combined Dataset
 
 ```bash
-python src/data/prepare_dataset.py --data_dir=data/processed --output_dir=data/final --use_iemocap --use_ravdess
+python src/data/prepare_dataset.py --data_dir=data/processed --output_dir=data/final --use_crema_d
 ```
 
 ## Data Format
