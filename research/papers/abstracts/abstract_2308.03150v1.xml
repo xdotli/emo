@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2308.03150v1%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2308.03150v1&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/CWQlMqYLJ7AmJfJlW4kPPR5CJBs</id>
+  <updated>2025-02-25T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2308.03150v1</id>
+    <updated>2023-08-06T15:56:12Z</updated>
+    <published>2023-08-06T15:56:12Z</published>
+    <title>"We care": Improving Code Mixed Speech Emotion Recognition in
+  Customer-Care Conversations</title>
+    <summary>  Speech Emotion Recognition (SER) is the task of identifying the emotion
+expressed in a spoken utterance. Emotion recognition is essential in building
+robust conversational agents in domains such as law, healthcare, education, and
+customer support. Most of the studies published on SER use datasets created by
+employing professional actors in a noise-free environment. In natural settings
+such as a customer care conversation, the audio is often noisy with speakers
+regularly switching between different languages as they see fit. We have worked
+in collaboration with a leading unicorn in the Conversational AI sector to
+develop Natural Speech Emotion Dataset (NSED). NSED is a natural code-mixed
+speech emotion dataset where each utterance in a conversation is annotated with
+emotion, sentiment, valence, arousal, and dominance (VAD) values. In this
+paper, we show that by incorporating word-level VAD value we improve on the
+task of SER by 2%, for negative emotions, over the baseline value for NSED.
+High accuracy for negative emotion recognition is essential because customers
+expressing negative opinions/views need to be pacified with urgency, lest
+complaints and dissatisfaction snowball and get out of hand. Escalation of
+negative opinions speedily is crucial for business interests. Our study then
+can be utilized to develop conversational agents which are more polite and
+empathetic in such situations.
+</summary>
+    <author>
+      <name>N V S Abhishek</name>
+    </author>
+    <author>
+      <name>Pushpak Bhattacharyya</name>
+    </author>
+    <link href="http://arxiv.org/abs/2308.03150v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2308.03150v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.09197v3%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.09197v3&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/ME/15/o3xIkpCoCFDvglffguFoY</id>
+  <updated>2025-02-25T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.09197v3</id>
+    <updated>2018-06-01T08:14:19Z</updated>
+    <published>2018-05-23T14:38:39Z</published>
+    <title>ASR-based Features for Emotion Recognition: A Transfer Learning Approach</title>
+    <summary>  During the last decade, the applications of signal processing have
+drastically improved with deep learning. However areas of affecting computing
+such as emotional speech synthesis or emotion recognition from spoken language
+remains challenging. In this paper, we investigate the use of a neural
+Automatic Speech Recognition (ASR) as a feature extractor for emotion
+recognition. We show that these features outperform the eGeMAPS feature set to
+predict the valence and arousal emotional dimensions, which means that the
+audio-to-text mapping learning by the ASR system contain information related to
+the emotional dimensions in spontaneous speech. We also examine the
+relationship between first layers (closer to speech) and last layers (closer to
+text) of the ASR and valence/arousal.
+</summary>
+    <author>
+      <name>Noé Tits</name>
+    </author>
+    <author>
+      <name>Kevin El Haddad</name>
+    </author>
+    <author>
+      <name>Thierry Dutoit</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted to be published in the First Workshop on Computational
+  Modeling of Human Multimodal Language - ACL 2018</arxiv:comment>
+    <link href="http://arxiv.org/abs/1805.09197v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.09197v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

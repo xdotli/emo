@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.08626v1%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.08626v1&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/wOaS5HBcU9bUeYXFBpACwpCTwpY</id>
+  <updated>2025-02-25T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.08626v1</id>
+    <updated>2020-04-26T07:15:50Z</updated>
+    <published>2020-04-26T07:15:50Z</published>
+    <title>A Spontaneous Driver Emotion Facial Expression (DEFE) Dataset for
+  Intelligent Vehicles</title>
+    <summary>  In this paper, we introduce a new dataset, the driver emotion facial
+expression (DEFE) dataset, for driver spontaneous emotions analysis. The
+dataset includes facial expression recordings from 60 participants during
+driving. After watching a selected video-audio clip to elicit a specific
+emotion, each participant completed the driving tasks in the same driving
+scenario and rated their emotional responses during the driving processes from
+the aspects of dimensional emotion and discrete emotion. We also conducted
+classification experiments to recognize the scales of arousal, valence,
+dominance, as well as the emotion category and intensity to establish baseline
+results for the proposed dataset. Besides, this paper compared and discussed
+the differences in facial expressions between driving and non-driving
+scenarios. The results show that there were significant differences in AUs
+(Action Units) presence of facial expressions between driving and non-driving
+scenarios, indicating that human emotional expressions in driving scenarios
+were different from other life scenarios. Therefore, publishing a human emotion
+dataset specifically for the driver is necessary for traffic safety
+improvement. The proposed dataset will be publicly available so that
+researchers worldwide can use it to develop and examine their driver emotion
+analysis methods. To the best of our knowledge, this is currently the only
+public driver facial expression dataset.
+</summary>
+    <author>
+      <name>Wenbo Li</name>
+    </author>
+    <author>
+      <name>Yaodong Cui</name>
+    </author>
+    <author>
+      <name>Yintao Ma</name>
+    </author>
+    <author>
+      <name>Xingxin Chen</name>
+    </author>
+    <author>
+      <name>Guofa Li</name>
+    </author>
+    <author>
+      <name>Gang Guo</name>
+    </author>
+    <author>
+      <name>Dongpu Cao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.08626v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.08626v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

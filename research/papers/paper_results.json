@@ -1,0 +1,868 @@
+[
+  {
+    "title": "Leveraging Semantic Information for Efficient Self-Supervised Emotion\n  Recognition with Audio-Textual Distilled Models",
+    "authors": [
+      "Danilo de Oliveira",
+      "Navin Raj Prabhu",
+      "Timo Gerkmann"
+    ],
+    "abstract": "In large part due to their implicit semantic modeling, self-supervised\nlearning (SSL) methods have significantly increased the performance of valence\nrecognition in speech emotion recognition (SER) systems. Yet, their large size\nmay often hinder practical implementations. In this work, we take HuBERT as an\nexample of an SSL model and analyze the relevance of each of its layers for\nSER. We show that shallow layers are more important for arousal recognition\nwhile deeper layers are more important for valence. This observation motivates\nthe importance of additional textual information for accurate valence\nrecognition, as the distilled framework lacks the depth of its large-scale SSL\nteacher. Thus, we propose an audio-textual distilled SSL framework that, while\nhaving only ~20% of the trainable parameters of a large SSL model, achieves on\npar performance across the three emotion dimensions (arousal, valence,\ndominance) on the MSP-Podcast v1.10 dataset.",
+    "link": "http://arxiv.org/abs/2305.19184v1",
+    "published": "2023-05-30T16:29:33Z"
+  },
+  {
+    "title": "Detecting Emotion Primitives from Speech and their use in discerning\n  Categorical Emotions",
+    "authors": [
+      "Vasudha Kowtha",
+      "Vikramjit Mitra",
+      "Chris Bartels",
+      "Erik Marchi",
+      "Sue Booker",
+      "William Caruso",
+      "Sachin Kajarekar",
+      "Devang Naik"
+    ],
+    "abstract": "Emotion plays an essential role in human-to-human communication, enabling us\nto convey feelings such as happiness, frustration, and sincerity. While modern\nspeech technologies rely heavily on speech recognition and natural language\nunderstanding for speech content understanding, the investigation of vocal\nexpression is increasingly gaining attention. Key considerations for building\nrobust emotion models include characterizing and improving the extent to which\na model, given its training data distribution, is able to generalize to unseen\ndata conditions. This work investigated a long-shot-term memory (LSTM) network\nand a time convolution - LSTM (TC-LSTM) to detect primitive emotion attributes\nsuch as valence, arousal, and dominance, from speech. It was observed that\ntraining with multiple datasets and using robust features improved the\nconcordance correlation coefficient (CCC) for valence, by 30\\% with respect to\nthe baseline system. Additionally, this work investigated how emotion\nprimitives can be used to detect categorical emotions such as happiness,\ndisgust, contempt, anger, and surprise from neutral speech, and results\nindicated that arousal, followed by dominance was a better detector of such\nemotions.",
+    "link": "http://arxiv.org/abs/2002.01323v1",
+    "published": "2020-01-31T03:11:24Z"
+  },
+  {
+    "title": "Testing Correctness, Fairness, and Robustness of Speech Emotion\n  Recognition Models",
+    "authors": [
+      "Anna Derington",
+      "Hagen Wierstorf",
+      "Ali \u00d6zkil",
+      "Florian Eyben",
+      "Felix Burkhardt",
+      "Bj\u00f6rn W. Schuller"
+    ],
+    "abstract": "Machine learning models for speech emotion recognition (SER) can be trained\nfor different tasks and are usually evaluated based on a few available datasets\nper task. Tasks could include arousal, valence, dominance, emotional\ncategories, or tone of voice. Those models are mainly evaluated in terms of\ncorrelation or recall, and always show some errors in their predictions. The\nerrors manifest themselves in model behaviour, which can be very different\nalong different dimensions even if the same recall or correlation is achieved\nby the model. This paper introduces a testing framework to investigate\nbehaviour of speech emotion recognition models, by requiring different metrics\nto reach a certain threshold in order to pass a test. The test metrics can be\ngrouped in terms of correctness, fairness, and robustness. It also provides a\nmethod for automatically specifying test thresholds for fairness tests, based\non the datasets used, and recommendations on how to select the remaining test\nthresholds. We evaluated a xLSTM-based and nine transformer-based acoustic\nfoundation models against a convolutional baseline model, testing their\nperformance on arousal, valence, dominance, and emotional category\nclassification. The test results highlight, that models with high correlation\nor recall might rely on shortcuts -- such as text sentiment --, and differ in\nterms of fairness.",
+    "link": "http://arxiv.org/abs/2312.06270v4",
+    "published": "2023-12-11T10:15:35Z"
+  },
+  {
+    "title": "Emotional Voice Messages (EMOVOME) database: emotion recognition in\n  spontaneous voice messages",
+    "authors": [
+      "Luc\u00eda G\u00f3mez Zaragoz\u00e1",
+      "Roc\u00edo del Amor",
+      "Elena Parra Vargas",
+      "Valery Naranjo",
+      "Mariano Alca\u00f1iz Raya",
+      "Javier Mar\u00edn-Morales"
+    ],
+    "abstract": "Emotional Voice Messages (EMOVOME) is a spontaneous speech dataset containing\n999 audio messages from real conversations on a messaging app from 100 Spanish\nspeakers, gender balanced. Voice messages were produced in-the-wild conditions\nbefore participants were recruited, avoiding any conscious bias due to\nlaboratory environment. Audios were labeled in valence and arousal dimensions\nby three non-experts and two experts, which were then combined to obtain a\nfinal label per dimension. The experts also provided an extra label\ncorresponding to seven emotion categories. To set a baseline for future\ninvestigations using EMOVOME, we implemented emotion recognition models using\nboth speech and audio transcriptions. For speech, we used the standard eGeMAPS\nfeature set and support vector machines, obtaining 49.27% and 44.71% unweighted\naccuracy for valence and arousal respectively. For text, we fine-tuned a\nmultilingual BERT model and achieved 61.15% and 47.43% unweighted accuracy for\nvalence and arousal respectively. This database will significantly contribute\nto research on emotion recognition in the wild, while also providing a unique\nnatural and freely accessible resource for Spanish.",
+    "link": "http://arxiv.org/abs/2402.17496v2",
+    "published": "2024-02-27T13:22:47Z"
+  },
+  {
+    "title": "Sound-Based Recognition of Touch Gestures and Emotions for Enhanced\n  Human-Robot Interaction",
+    "authors": [
+      "Yuanbo Hou",
+      "Qiaoqiao Ren",
+      "Wenwu Wang",
+      "Dick Botteldooren"
+    ],
+    "abstract": "Emotion recognition and touch gesture decoding are crucial for advancing\nhuman-robot interaction (HRI), especially in social environments where\nemotional cues and tactile perception play important roles. However, many\nhumanoid robots, such as Pepper, Nao, and Furhat, lack full-body tactile skin,\nlimiting their ability to engage in touch-based emotional and gesture\ninteractions. In addition, vision-based emotion recognition methods usually\nface strict GDPR compliance challenges due to the need to collect personal\nfacial data. To address these limitations and avoid privacy issues, this paper\nstudies the potential of using the sounds produced by touching during HRI to\nrecognise tactile gestures and classify emotions along the arousal and valence\ndimensions. Using a dataset of tactile gestures and emotional interactions from\n28 participants with the humanoid robot Pepper, we design an audio-only\nlightweight touch gesture and emotion recognition model with only 0.24M\nparameters, 0.94MB model size, and 0.7G FLOPs. Experimental results show that\nthe proposed sound-based touch gesture and emotion recognition model\neffectively recognises the arousal and valence states of different emotions, as\nwell as various tactile gestures, when the input audio length varies. The\nproposed model is low-latency and achieves similar results as well-known\npretrained audio neural networks (PANNs), but with much smaller FLOPs,\nparameters, and model size.",
+    "link": "http://arxiv.org/abs/2501.00038v1",
+    "published": "2024-12-24T09:51:00Z"
+  },
+  {
+    "title": "Ladder Networks for Emotion Recognition: Using Unsupervised Auxiliary\n  Tasks to Improve Predictions of Emotional Attributes",
+    "authors": [
+      "Srinivas Parthasarathy",
+      "Carlos Busso"
+    ],
+    "abstract": "Recognizing emotions using few attribute dimensions such as arousal, valence\nand dominance provides the flexibility to effectively represent complex range\nof emotional behaviors. Conventional methods to learn these emotional\ndescriptors primarily focus on separate models to recognize each of these\nattributes. Recent work has shown that learning these attributes together\nregularizes the models, leading to better feature representations. This study\nexplores new forms of regularization by adding unsupervised auxiliary tasks to\nreconstruct hidden layer representations. This auxiliary task requires the\ndenoising of hidden representations at every layer of an auto-encoder. The\nframework relies on ladder networks that utilize skip connections between\nencoder and decoder layers to learn powerful representations of emotional\ndimensions. The results show that ladder networks improve the performance of\nthe system compared to baselines that individually learn each attribute, and\nconventional denoising autoencoders. Furthermore, the unsupervised auxiliary\ntasks have promising potential to be used in a semi-supervised setting, where\nfew labeled sentences are available.",
+    "link": "http://arxiv.org/abs/1804.10816v1",
+    "published": "2018-04-28T15:08:41Z"
+  },
+  {
+    "title": "A Spontaneous Driver Emotion Facial Expression (DEFE) Dataset for\n  Intelligent Vehicles",
+    "authors": [
+      "Wenbo Li",
+      "Yaodong Cui",
+      "Yintao Ma",
+      "Xingxin Chen",
+      "Guofa Li",
+      "Gang Guo",
+      "Dongpu Cao"
+    ],
+    "abstract": "In this paper, we introduce a new dataset, the driver emotion facial\nexpression (DEFE) dataset, for driver spontaneous emotions analysis. The\ndataset includes facial expression recordings from 60 participants during\ndriving. After watching a selected video-audio clip to elicit a specific\nemotion, each participant completed the driving tasks in the same driving\nscenario and rated their emotional responses during the driving processes from\nthe aspects of dimensional emotion and discrete emotion. We also conducted\nclassification experiments to recognize the scales of arousal, valence,\ndominance, as well as the emotion category and intensity to establish baseline\nresults for the proposed dataset. Besides, this paper compared and discussed\nthe differences in facial expressions between driving and non-driving\nscenarios. The results show that there were significant differences in AUs\n(Action Units) presence of facial expressions between driving and non-driving\nscenarios, indicating that human emotional expressions in driving scenarios\nwere different from other life scenarios. Therefore, publishing a human emotion\ndataset specifically for the driver is necessary for traffic safety\nimprovement. The proposed dataset will be publicly available so that\nresearchers worldwide can use it to develop and examine their driver emotion\nanalysis methods. To the best of our knowledge, this is currently the only\npublic driver facial expression dataset.",
+    "link": "http://arxiv.org/abs/2005.08626v1",
+    "published": "2020-04-26T07:15:50Z"
+  },
+  {
+    "title": "\"We care\": Improving Code Mixed Speech Emotion Recognition in\n  Customer-Care Conversations",
+    "authors": [
+      "N V S Abhishek",
+      "Pushpak Bhattacharyya"
+    ],
+    "abstract": "Speech Emotion Recognition (SER) is the task of identifying the emotion\nexpressed in a spoken utterance. Emotion recognition is essential in building\nrobust conversational agents in domains such as law, healthcare, education, and\ncustomer support. Most of the studies published on SER use datasets created by\nemploying professional actors in a noise-free environment. In natural settings\nsuch as a customer care conversation, the audio is often noisy with speakers\nregularly switching between different languages as they see fit. We have worked\nin collaboration with a leading unicorn in the Conversational AI sector to\ndevelop Natural Speech Emotion Dataset (NSED). NSED is a natural code-mixed\nspeech emotion dataset where each utterance in a conversation is annotated with\nemotion, sentiment, valence, arousal, and dominance (VAD) values. In this\npaper, we show that by incorporating word-level VAD value we improve on the\ntask of SER by 2%, for negative emotions, over the baseline value for NSED.\nHigh accuracy for negative emotion recognition is essential because customers\nexpressing negative opinions/views need to be pacified with urgency, lest\ncomplaints and dissatisfaction snowball and get out of hand. Escalation of\nnegative opinions speedily is crucial for business interests. Our study then\ncan be utilized to develop conversational agents which are more polite and\nempathetic in such situations.",
+    "link": "http://arxiv.org/abs/2308.03150v1",
+    "published": "2023-08-06T15:56:12Z"
+  },
+  {
+    "title": "ASR-based Features for Emotion Recognition: A Transfer Learning Approach",
+    "authors": [
+      "No\u00e9 Tits",
+      "Kevin El Haddad",
+      "Thierry Dutoit"
+    ],
+    "abstract": "During the last decade, the applications of signal processing have\ndrastically improved with deep learning. However areas of affecting computing\nsuch as emotional speech synthesis or emotion recognition from spoken language\nremains challenging. In this paper, we investigate the use of a neural\nAutomatic Speech Recognition (ASR) as a feature extractor for emotion\nrecognition. We show that these features outperform the eGeMAPS feature set to\npredict the valence and arousal emotional dimensions, which means that the\naudio-to-text mapping learning by the ASR system contain information related to\nthe emotional dimensions in spontaneous speech. We also examine the\nrelationship between first layers (closer to speech) and last layers (closer to\ntext) of the ASR and valence/arousal.",
+    "link": "http://arxiv.org/abs/1805.09197v3",
+    "published": "2018-05-23T14:38:39Z"
+  },
+  {
+    "title": "On Perceived Emotion in Expressive Piano Performance: Further\n  Experimental Evidence for the Relevance of Mid-level Perceptual Features",
+    "authors": [
+      "Shreyan Chowdhury",
+      "Gerhard Widmer"
+    ],
+    "abstract": "Despite recent advances in audio content-based music emotion recognition, a\nquestion that remains to be explored is whether an algorithm can reliably\ndiscern emotional or expressive qualities between different performances of the\nsame piece. In the present work, we analyze several sets of features on their\neffectiveness in predicting arousal and valence of six different performances\n(by six famous pianists) of Bach's Well-Tempered Clavier Book 1. These features\ninclude low-level acoustic features, score-based features, features extracted\nusing a pre-trained emotion model, and Mid-level perceptual features. We\ncompare their predictive power by evaluating them on several experiments\ndesigned to test performance-wise or piece-wise variations of emotion. We find\nthat Mid-level features show significant contribution in performance-wise\nvariation of both arousal and valence -- even better than the pre-trained\nemotion model. Our findings add to the evidence of Mid-level perceptual\nfeatures being an important representation of musical attributes for several\ntasks -- specifically, in this case, for capturing the expressive aspects of\nmusic that manifest as perceived emotion of a musical performance.",
+    "link": "http://arxiv.org/abs/2107.13231v1",
+    "published": "2021-07-28T09:22:18Z"
+  },
+  {
+    "title": "$M^3$T: Multi-Modal Continuous Valence-Arousal Estimation in the Wild",
+    "authors": [
+      "Yuan-Hang Zhang",
+      "Rulin Huang",
+      "Jiabei Zeng",
+      "Shiguang Shan",
+      "Xilin Chen"
+    ],
+    "abstract": "This report describes a multi-modal multi-task ($M^3$T) approach underlying\nour submission to the valence-arousal estimation track of the Affective\nBehavior Analysis in-the-wild (ABAW) Challenge, held in conjunction with the\nIEEE International Conference on Automatic Face and Gesture Recognition (FG)\n2020. In the proposed $M^3$T framework, we fuse both visual features from\nvideos and acoustic features from the audio tracks to estimate the valence and\narousal. The spatio-temporal visual features are extracted with a 3D\nconvolutional network and a bidirectional recurrent neural network. Considering\nthe correlations between valence / arousal, emotions, and facial actions, we\nalso explores mechanisms to benefit from other tasks. We evaluated the $M^3$T\nframework on the validation set provided by ABAW and it significantly\noutperforms the baseline method.",
+    "link": "http://arxiv.org/abs/2002.02957v1",
+    "published": "2020-02-07T18:53:13Z"
+  },
+  {
+    "title": "Transformer for Emotion Recognition",
+    "authors": [
+      "Jean-Benoit Delbrouck"
+    ],
+    "abstract": "This paper describes the UMONS solution for the OMG-Emotion Challenge. We\nexplore a context-dependent architecture where the arousal and valence of an\nutterance are predicted according to its surrounding context (i.e. the\npreceding and following utterances of the video). We report an improvement when\ntaking into account context for both unimodal and multimodal predictions.",
+    "link": "http://arxiv.org/abs/1805.02489v2",
+    "published": "2018-05-03T19:42:57Z"
+  },
+  {
+    "title": "Unsupervised Personalization of an Emotion Recognition System: The\n  Unique Properties of the Externalization of Valence in Speech",
+    "authors": [
+      "Kusha Sridhar",
+      "Carlos Busso"
+    ],
+    "abstract": "The prediction of valence from speech is an important, but challenging\nproblem. The externalization of valence in speech has speaker-dependent cues,\nwhich contribute to performances that are often significantly lower than the\nprediction of other emotional attributes such as arousal and dominance. A\npractical approach to improve valence prediction from speech is to adapt the\nmodels to the target speakers in the test set. Adapting a speech emotion\nrecognition (SER) system to a particular speaker is a hard problem, especially\nwith deep neural networks (DNNs), since it requires optimizing millions of\nparameters. This study proposes an unsupervised approach to address this\nproblem by searching for speakers in the train set with similar acoustic\npatterns as the speaker in the test set. Speech samples from the selected\nspeakers are used to create the adaptation set. This approach leverages\ntransfer learning using pre-trained models, which are adapted with these speech\nsamples. We propose three alternative adaptation strategies: unique speaker,\noversampling and weighting approaches. These methods differ on the use of the\nadaptation set in the personalization of the valence models. The results\ndemonstrate that a valence prediction model can be efficiently personalized\nwith these unsupervised approaches, leading to relative improvements as high as\n13.52%.",
+    "link": "http://arxiv.org/abs/2201.07876v1",
+    "published": "2022-01-19T22:14:49Z"
+  },
+  {
+    "title": "Disentangled Variational Autoencoder for Emotion Recognition in\n  Conversations",
+    "authors": [
+      "Kailai Yang",
+      "Tianlin Zhang",
+      "Sophia Ananiadou"
+    ],
+    "abstract": "In Emotion Recognition in Conversations (ERC), the emotions of target\nutterances are closely dependent on their context. Therefore, existing works\ntrain the model to generate the response of the target utterance, which aims to\nrecognise emotions leveraging contextual information. However, adjacent\nresponse generation ignores long-range dependencies and provides limited\naffective information in many cases. In addition, most ERC models learn a\nunified distributed representation for each utterance, which lacks\ninterpretability and robustness. To address these issues, we propose a\nVAD-disentangled Variational AutoEncoder (VAD-VAE), which first introduces a\ntarget utterance reconstruction task based on Variational Autoencoder, then\ndisentangles three affect representations Valence-Arousal-Dominance (VAD) from\nthe latent space. We also enhance the disentangled representations by\nintroducing VAD supervision signals from a sentiment lexicon and minimising the\nmutual information between VAD distributions. Experiments show that VAD-VAE\noutperforms the state-of-the-art model on two datasets. Further analysis proves\nthe effectiveness of each proposed module and the quality of disentangled VAD\nrepresentations. The code is available at\nhttps://github.com/SteveKGYang/VAD-VAE.",
+    "link": "http://arxiv.org/abs/2305.14071v1",
+    "published": "2023-05-23T13:50:06Z"
+  },
+  {
+    "title": "CAKE: Compact and Accurate K-dimensional representation of Emotion",
+    "authors": [
+      "Corentin Kervadec",
+      "Valentin Vielzeuf",
+      "St\u00e9phane Pateux",
+      "Alexis Lechervy",
+      "Fr\u00e9d\u00e9ric Jurie"
+    ],
+    "abstract": "Numerous models describing the human emotional states have been built by the\npsychology community. Alongside, Deep Neural Networks (DNN) are reaching\nexcellent performances and are becoming interesting features extraction tools\nin many computer vision tasks.Inspired by works from the psychology community,\nwe first study the link between the compact two-dimensional representation of\nthe emotion known as arousal-valence, and discrete emotion classes (e.g. anger,\nhappiness, sadness, etc.) used in the computer vision community. It enables to\nassess the benefits -- in terms of discrete emotion inference -- of adding an\nextra dimension to arousal-valence (usually named dominance). Building on these\nobservations, we propose CAKE, a 3-dimensional representation of emotion\nlearned in a multi-domain fashion, achieving accurate emotion recognition on\nseveral public datasets. Moreover, we visualize how emotions boundaries are\norganized inside DNN representations and show that DNNs are implicitly learning\narousal-valence-like descriptions of emotions. Finally, we use the CAKE\nrepresentation to compare the quality of the annotations of different public\ndatasets.",
+    "link": "http://arxiv.org/abs/1807.11215v2",
+    "published": "2018-07-30T08:03:09Z"
+  },
+  {
+    "title": "Unimodal Multi-Task Fusion for Emotional Mimicry Intensity Prediction",
+    "authors": [
+      "Tobias Hallmen",
+      "Fabian Deuser",
+      "Norbert Oswald",
+      "Elisabeth Andr\u00e9"
+    ],
+    "abstract": "In this research, we introduce a novel methodology for assessing Emotional\nMimicry Intensity (EMI) as part of the 6th Workshop and Competition on\nAffective Behavior Analysis in-the-wild. Our methodology utilises the Wav2Vec\n2.0 architecture, which has been pre-trained on an extensive podcast dataset,\nto capture a wide array of audio features that include both linguistic and\nparalinguistic components. We refine our feature extraction process by\nemploying a fusion technique that combines individual features with a global\nmean vector, thereby embedding a broader contextual understanding into our\nanalysis. A key aspect of our approach is the multi-task fusion strategy that\nnot only leverages these features but also incorporates a pre-trained\nValence-Arousal-Dominance (VAD) model. This integration is designed to refine\nemotion intensity prediction by concurrently processing multiple emotional\ndimensions, thereby embedding a richer contextual understanding into our\nframework. For the temporal analysis of audio data, our feature fusion process\nutilises a Long Short-Term Memory (LSTM) network. This approach, which relies\nsolely on the provided audio data, shows marked advancements over the existing\nbaseline, offering a more comprehensive understanding of emotional mimicry in\nnaturalistic settings, achieving the second place in the EMI challenge.",
+    "link": "http://arxiv.org/abs/2403.11879v4",
+    "published": "2024-03-18T15:32:02Z"
+  },
+  {
+    "title": "EmoSphere-TTS: Emotional Style and Intensity Modeling via Spherical\n  Emotion Vector for Controllable Emotional Text-to-Speech",
+    "authors": [
+      "Deok-Hyeon Cho",
+      "Hyung-Seok Oh",
+      "Seung-Bin Kim",
+      "Sang-Hoon Lee",
+      "Seong-Whan Lee"
+    ],
+    "abstract": "Despite rapid advances in the field of emotional text-to-speech (TTS), recent\nstudies primarily focus on mimicking the average style of a particular emotion.\nAs a result, the ability to manipulate speech emotion remains constrained to\nseveral predefined labels, compromising the ability to reflect the nuanced\nvariations of emotion. In this paper, we propose EmoSphere-TTS, which\nsynthesizes expressive emotional speech by using a spherical emotion vector to\ncontrol the emotional style and intensity of the synthetic speech. Without any\nhuman annotation, we use the arousal, valence, and dominance pseudo-labels to\nmodel the complex nature of emotion via a Cartesian-spherical transformation.\nFurthermore, we propose a dual conditional adversarial network to improve the\nquality of generated speech by reflecting the multi-aspect characteristics. The\nexperimental results demonstrate the model ability to control emotional style\nand intensity with high-quality expressive speech.",
+    "link": "http://arxiv.org/abs/2406.07803v2",
+    "published": "2024-06-12T01:40:29Z"
+  },
+  {
+    "title": "Adjusting Pleasure-Arousal-Dominance for Continuous Emotional\n  Text-to-speech Synthesizer",
+    "authors": [
+      "Azam Rabiee",
+      "Tae-Ho Kim",
+      "Soo-Young Lee"
+    ],
+    "abstract": "Emotion is not limited to discrete categories of happy, sad, angry, fear,\ndisgust, surprise, and so on. Instead, each emotion category is projected into\na set of nearly independent dimensions, named pleasure (or valence), arousal,\nand dominance, known as PAD. The value of each dimension varies from -1 to 1,\nsuch that the neutral emotion is in the center with all-zero values. Training\nan emotional continuous text-to-speech (TTS) synthesizer on the independent\ndimensions provides the possibility of emotional speech synthesis with\nunlimited emotion categories. Our end-to-end neural speech synthesizer is based\non the well-known Tacotron. Empirically, we have found the optimum network\narchitecture for injecting the 3D PADs. Moreover, the PAD values are adjusted\nfor the speech synthesis purpose.",
+    "link": "http://arxiv.org/abs/1906.05507v1",
+    "published": "2019-06-13T06:53:40Z"
+  },
+  {
+    "title": "Dynamic Time-Alignment of Dimensional Annotations of Emotion using\n  Recurrent Neural Networks",
+    "authors": [
+      "Sina Alisamir",
+      "Fabien Ringeval",
+      "Francois Portet"
+    ],
+    "abstract": "Most automatic emotion recognition systems exploit time-continuous\nannotations of emotion to provide fine-grained descriptions of spontaneous\nexpressions as observed in real-life interactions. As emotion is rather\nsubjective, its annotation is usually performed by several annotators who\nprovide a trace for a given dimension, i.e. a time-continuous series describing\na dimension such as arousal or valence. However, annotations of the same\nexpression are rarely consistent between annotators, either in time or in\nvalue, which adds bias and delay in the trace that is used to learn predictive\nmodels of emotion. We therefore propose a method that can dynamically\ncompensate inconsistencies across annotations and synchronise the traces with\nthe corresponding acoustic features using Recurrent Neural Networks.\nExperimental evaluations were carried on several emotion data sets that include\nChinese, French, German, and Hungarian participants who interacted remotely in\neither noise-free conditions or in-the-wild. The results show that our method\ncan significantly increase inter-annotator agreement, as well as correlation\nbetween traces and audio features, for both arousal and valence. In addition,\nimprovements are obtained in the automatic prediction of these dimensions using\nsimple light-weight models, especially for valence in noise-free conditions,\nand arousal for recordings captured in-the-wild.",
+    "link": "http://arxiv.org/abs/2209.10223v1",
+    "published": "2022-09-21T09:38:57Z"
+  },
+  {
+    "title": "Recursive Joint Cross-Modal Attention for Multimodal Fusion in\n  Dimensional Emotion Recognition",
+    "authors": [
+      "R. Gnana Praveen",
+      "Jahangir Alam"
+    ],
+    "abstract": "Though multimodal emotion recognition has achieved significant progress over\nrecent years, the potential of rich synergic relationships across the\nmodalities is not fully exploited. In this paper, we introduce Recursive Joint\nCross-Modal Attention (RJCMA) to effectively capture both intra- and\ninter-modal relationships across audio, visual, and text modalities for\ndimensional emotion recognition. In particular, we compute the attention\nweights based on cross-correlation between the joint audio-visual-text feature\nrepresentations and the feature representations of individual modalities to\nsimultaneously capture intra- and intermodal relationships across the\nmodalities. The attended features of the individual modalities are again fed as\ninput to the fusion model in a recursive mechanism to obtain more refined\nfeature representations. We have also explored Temporal Convolutional Networks\n(TCNs) to improve the temporal modeling of the feature representations of\nindividual modalities. Extensive experiments are conducted to evaluate the\nperformance of the proposed fusion model on the challenging Affwild2 dataset.\nBy effectively capturing the synergic intra- and inter-modal relationships\nacross audio, visual, and text modalities, the proposed fusion model achieves a\nConcordance Correlation Coefficient (CCC) of 0.585 (0.542) and 0.674 (0.619)\nfor valence and arousal respectively on the validation set(test set). This\nshows a significant improvement over the baseline of 0.240 (0.211) and 0.200\n(0.191) for valence and arousal, respectively, in the validation set (test\nset), achieving second place in the valence-arousal challenge of the 6th\nAffective Behavior Analysis in-the-Wild (ABAW) competition.",
+    "link": "http://arxiv.org/abs/2403.13659v4",
+    "published": "2024-03-20T15:08:43Z"
+  },
+  {
+    "title": "MES-P: an Emotional Tonal Speech Dataset in Mandarin Chinese with Distal\n  and Proximal Labels",
+    "authors": [
+      "Zhongzhe Xiao",
+      "Ying Chen",
+      "Weibei Dou",
+      "Zhi Tao",
+      "Liming Chen"
+    ],
+    "abstract": "Emotion shapes all aspects of our interpersonal and intellectual experiences.\nIts automatic analysis has there-fore many applications, e.g., human-machine\ninterface. In this paper, we propose an emotional tonal speech dataset, namely\nMandarin Chinese Emotional Speech Dataset - Portrayed (MES-P), with both distal\nand proximal labels. In contrast with state of the art emotional speech\ndatasets which are only focused on perceived emotions, the proposed MES-P\ndataset includes not only perceived emotions with their proximal labels but\nalso intended emotions with distal labels, thereby making it possible to study\nhuman emotional intelligence, i.e. people emotion expression ability and their\nskill of understanding emotions, thus explicitly accounting for perception\ndifferences between intended and perceived emotions in speech signals and\nenabling studies of emotional misunderstandings which often occur in real life.\nFurthermore, the proposed MES-P dataset also captures a main feature of tonal\nlanguages, i.e., tonal variations, and provides recorded emotional speech\nsamples whose tonal variations match the tonal distribution in real life\nMandarin Chinese. Besides, the proposed MES-P dataset features emotion\nintensity variations as well, and includes both moderate and intense versions\nof recordings for joy, anger, and sadness in addition to neutral speech.\nRatings of the collected speech samples are made in valence-arousal space\nthrough continuous coordinate locations, resulting in an emotional distribution\npattern in 2D VA space. The consistency between the speakers' emotional\nintentions and the listeners' perceptions is also studied using Cohen's Kappa\ncoefficients. Finally, we also carry out extensive experiments using a baseline\non MES-P for automatic emotion recognition and compare the results with human\nemotion intelligence.",
+    "link": "http://arxiv.org/abs/1808.10095v2",
+    "published": "2018-08-30T03:02:46Z"
+  },
+  {
+    "title": "Probing Speech Emotion Recognition Transformers for Linguistic Knowledge",
+    "authors": [
+      "Andreas Triantafyllopoulos",
+      "Johannes Wagner",
+      "Hagen Wierstorf",
+      "Maximilian Schmitt",
+      "Uwe Reichel",
+      "Florian Eyben",
+      "Felix Burkhardt",
+      "Bj\u00f6rn W. Schuller"
+    ],
+    "abstract": "Large, pre-trained neural networks consisting of self-attention layers\n(transformers) have recently achieved state-of-the-art results on several\nspeech emotion recognition (SER) datasets. These models are typically\npre-trained in self-supervised manner with the goal to improve automatic speech\nrecognition performance -- and thus, to understand linguistic information. In\nthis work, we investigate the extent in which this information is exploited\nduring SER fine-tuning. Using a reproducible methodology based on open-source\ntools, we synthesise prosodically neutral speech utterances while varying the\nsentiment of the text. Valence predictions of the transformer model are very\nreactive to positive and negative sentiment content, as well as negations, but\nnot to intensifiers or reducers, while none of those linguistic features impact\narousal or dominance. These findings show that transformers can successfully\nleverage linguistic information to improve their valence predictions, and that\nlinguistic analysis should be included in their testing.",
+    "link": "http://arxiv.org/abs/2204.00400v2",
+    "published": "2022-04-01T12:47:45Z"
+  },
+  {
+    "title": "Continuous Affect Prediction using Eye Gaze",
+    "authors": [
+      "Jonny O'Dwyer",
+      "Ronan Flynn",
+      "Niall Murray"
+    ],
+    "abstract": "In recent times, there has been significant interest in the machine\nrecognition of human emotions, due to the suite of applications to which this\nknowledge can be applied. A number of different modalities, such as speech or\nfacial expression, individually and with eye gaze, have been investigated by\nthe affective computing research community to either classify the emotion (e.g.\nsad, happy, angry) or predict the continuous values of affective dimensions\n(e.g. valence, arousal, dominance) at each moment in time. Surprisingly after\nan extensive literature review, eye gaze as a unimodal input to a continuous\naffect prediction system has not been considered. In this context, this paper\nevaluates the use of eye gaze as a unimodal input to a continuous affect\nprediction system. The performance of continuous prediction of arousal and\nvalence using eye gaze is compared with the performance of a speech system\nusing the AVEC 2014 speech feature set. The experimental evaluation when using\neye gaze as the single modality in a continuous affect prediction system\nproduced a correlation result for valence prediction that is better than the\ncorrelation result obtained with the AVEC 2014 speech feature set. Furthermore,\nthe eye gaze feature set proposed in this paper contains 98% fewer features\ncompared to the number of features in the AVEC 2014 feature set.",
+    "link": "http://arxiv.org/abs/1803.01660v1",
+    "published": "2018-03-05T13:49:43Z"
+  },
+  {
+    "title": "Design, construction and evaluation of emotional multimodal pathological\n  speech database",
+    "authors": [
+      "Ting Zhu",
+      "Shufei Duan",
+      "Huizhi Liang",
+      "Wei Zhang"
+    ],
+    "abstract": "The lack of an available emotion pathology database is one of the key\nobstacles in studying the emotion expression status of patients with\ndysarthria. The first Chinese multimodal emotional pathological speech database\ncontaining multi-perspective information is constructed in this paper. It\nincludes 29 controls and 39 patients with different degrees of motor\ndysarthria, expressing happy, sad, angry and neutral emotions. All emotional\nspeech was labeled for intelligibility, types and discrete dimensional emotions\nby developed WeChat mini-program. The subjective analysis justifies from\nemotion discrimination accuracy, speech intelligibility, valence-arousal\nspatial distribution, and correlation between SCL-90 and disease severity. The\nautomatic recognition tested on speech and glottal data, with average accuracy\nof 78% for controls and 60% for patients in audio, while 51% for controls and\n38% for patients in glottal data, indicating an influence of the disease on\nemotional expression.",
+    "link": "http://arxiv.org/abs/2312.08998v1",
+    "published": "2023-12-14T14:43:31Z"
+  },
+  {
+    "title": "Learning Speech Emotion Representations in the Quaternion Domain",
+    "authors": [
+      "Eric Guizzo",
+      "Tillman Weyde",
+      "Simone Scardapane",
+      "Danilo Comminiello"
+    ],
+    "abstract": "The modeling of human emotion expression in speech signals is an important,\nyet challenging task. The high resource demand of speech emotion recognition\nmodels, combined with the the general scarcity of emotion-labelled data are\nobstacles to the development and application of effective solutions in this\nfield. In this paper, we present an approach to jointly circumvent these\ndifficulties. Our method, named RH-emo, is a novel semi-supervised architecture\naimed at extracting quaternion embeddings from real-valued monoaural\nspectrograms, enabling the use of quaternion-valued networks for speech emotion\nrecognition tasks. RH-emo is a hybrid real/quaternion autoencoder network that\nconsists of a real-valued encoder in parallel to a real-valued emotion\nclassifier and a quaternion-valued decoder. On the one hand, the classifier\npermits to optimize each latent axis of the embeddings for the classification\nof a specific emotion-related characteristic: valence, arousal, dominance and\noverall emotion. On the other hand, the quaternion reconstruction enables the\nlatent dimension to develop intra-channel correlations that are required for an\neffective representation as a quaternion entity. We test our approach on speech\nemotion recognition tasks using four popular datasets: Iemocap, Ravdess, EmoDb\nand Tess, comparing the performance of three well-established real-valued CNN\narchitectures (AlexNet, ResNet-50, VGG) and their quaternion-valued equivalent\nfed with the embeddings created with RH-emo. We obtain a consistent improvement\nin the test accuracy for all datasets, while drastically reducing the\nresources' demand of models. Moreover, we performed additional experiments and\nablation studies that confirm the effectiveness of our approach. The RH-emo\nrepository is available at: https://github.com/ispamm/rhemo.",
+    "link": "http://arxiv.org/abs/2204.02385v2",
+    "published": "2022-04-05T17:45:09Z"
+  },
+  {
+    "title": "Attention-Augmented End-to-End Multi-Task Learning for Emotion\n  Prediction from Speech",
+    "authors": [
+      "Zixing Zhang",
+      "Bingwen Wu",
+      "Bjoern Schuller"
+    ],
+    "abstract": "Despite the increasing research interest in end-to-end learning systems for\nspeech emotion recognition, conventional systems either suffer from the\noverfitting due in part to the limited training data, or do not explicitly\nconsider the different contributions of automatically learnt representations\nfor a specific task. In this contribution, we propose a novel end-to-end\nframework which is enhanced by learning other auxiliary tasks and an attention\nmechanism. That is, we jointly train an end-to-end network with several\ndifferent but related emotion prediction tasks, i.e., arousal, valence, and\ndominance predictions, to extract more robust representations shared among\nvarious tasks than traditional systems with the hope that it is able to relieve\nthe overfitting problem. Meanwhile, an attention layer is implemented on top of\nthe layers for each task, with the aim to capture the contribution distribution\nof different segment parts for each individual task. To evaluate the\neffectiveness of the proposed system, we conducted a set of experiments on the\nwidely used database IEMOCAP. The empirical results show that the proposed\nsystems significantly outperform corresponding baseline systems.",
+    "link": "http://arxiv.org/abs/1903.12424v1",
+    "published": "2019-03-29T09:57:45Z"
+  },
+  {
+    "title": "Comparison and Analysis of Deep Audio Embeddings for Music Emotion\n  Recognition",
+    "authors": [
+      "Eunjeong Koh",
+      "Shlomo Dubnov"
+    ],
+    "abstract": "Emotion is a complicated notion present in music that is hard to capture even\nwith fine-tuned feature engineering. In this paper, we investigate the utility\nof state-of-the-art pre-trained deep audio embedding methods to be used in the\nMusic Emotion Recognition (MER) task. Deep audio embedding methods allow us to\nefficiently capture the high dimensional features into a compact\nrepresentation. We implement several multi-class classifiers with deep audio\nembeddings to predict emotion semantics in music. We investigate the\neffectiveness of L3-Net and VGGish deep audio embedding methods for music\nemotion inference over four music datasets. The experiments with several\nclassifiers on the task show that the deep audio embedding solutions can\nimprove the performances of the previous baseline MER models. We conclude that\ndeep audio embeddings represent musical emotion semantics for the MER task\nwithout expert human engineering.",
+    "link": "http://arxiv.org/abs/2104.06517v1",
+    "published": "2021-04-13T21:09:54Z"
+  },
+  {
+    "title": "Emotion Recognition from Speech",
+    "authors": [
+      "Kannan Venkataramanan",
+      "Haresh Rengaraj Rajamohan"
+    ],
+    "abstract": "In this work, we conduct an extensive comparison of various approaches to\nspeech based emotion recognition systems. The analyses were carried out on\naudio recordings from Ryerson Audio-Visual Database of Emotional Speech and\nSong (RAVDESS). After pre-processing the raw audio files, features such as\nLog-Mel Spectrogram, Mel-Frequency Cepstral Coefficients (MFCCs), pitch and\nenergy were considered. The significance of these features for emotion\nclassification was compared by applying methods such as Long Short Term Memory\n(LSTM), Convolutional Neural Networks (CNNs), Hidden Markov Models (HMMs) and\nDeep Neural Networks (DNNs). On the 14-class (2 genders x 7 emotions)\nclassification task, an accuracy of 68% was achieved with a 4-layer 2\ndimensional CNN using the Log-Mel Spectrogram features. We also observe that,\nin emotion recognition, the choice of audio features impacts the results much\nmore than the model complexity.",
+    "link": "http://arxiv.org/abs/1912.10458v1",
+    "published": "2019-12-22T14:43:14Z"
+  },
+  {
+    "title": "Usefulness of Emotional Prosody in Neural Machine Translation",
+    "authors": [
+      "Charles Brazier",
+      "Jean-Luc Rouas"
+    ],
+    "abstract": "Neural Machine Translation (NMT) is the task of translating a text from one\nlanguage to another with the use of a trained neural network. Several existing\nworks aim at incorporating external information into NMT models to improve or\ncontrol predicted translations (e.g. sentiment, politeness, gender). In this\nwork, we propose to improve translation quality by adding another external\nsource of information: the automatically recognized emotion in the voice. This\nwork is motivated by the assumption that each emotion is associated with a\nspecific lexicon that can overlap between emotions. Our proposed method follows\na two-stage procedure. At first, we select a state-of-the-art Speech Emotion\nRecognition (SER) model to predict dimensional emotion values from all input\naudio in the dataset. Then, we use these predicted emotions as source tokens\nadded at the beginning of input texts to train our NMT model. We show that\nintegrating emotion information, especially arousal, into NMT systems leads to\nbetter translations.",
+    "link": "http://arxiv.org/abs/2404.17968v1",
+    "published": "2024-04-27T18:04:28Z"
+  },
+  {
+    "title": "Rethinking Emotion Bias in Music via Frechet Audio Distance",
+    "authors": [
+      "Yuanchao Li",
+      "Azalea Gui",
+      "Dimitra Emmanouilidou",
+      "Hannes Gamper"
+    ],
+    "abstract": "The subjective nature of music emotion introduces inherent bias in both\nrecognition and generation, especially when relying on a single audio encoder,\nemotion classifier, or evaluation metric. In this work, we conduct a study on\nMusic Emotion Recognition (MER) and Emotional Music Generation (EMG), employing\ndiverse audio encoders alongside the Frechet Audio Distance (FAD), a\nreference-free evaluation metric. Our study begins with a benchmark evaluation\nof MER, highlighting the limitations associated with using a single audio\nencoder and the disparities observed across different measurements. We then\npropose assessing MER performance using FAD from multiple encoders to provide a\nmore objective measure of music emotion. Furthermore, we introduce an enhanced\nEMG approach designed to improve both the variation and prominence of generated\nmusic emotion, thus enhancing realism. Additionally, we investigate the realism\ndisparities between the emotions conveyed in real and synthetic music,\ncomparing our EMG model against two baseline models. Experimental results\nunderscore the emotion bias problem in both MER and EMG and demonstrate the\npotential of using FAD and diverse audio encoders to evaluate music emotion\nobjectively.",
+    "link": "http://arxiv.org/abs/2409.15545v2",
+    "published": "2024-09-23T20:59:15Z"
+  },
+  {
+    "title": "Disentanglement for audio-visual emotion recognition using multitask\n  setup",
+    "authors": [
+      "Raghuveer Peri",
+      "Srinivas Parthasarathy",
+      "Charles Bradshaw",
+      "Shiva Sundaram"
+    ],
+    "abstract": "Deep learning models trained on audio-visual data have been successfully used\nto achieve state-of-the-art performance for emotion recognition. In particular,\nmodels trained with multitask learning have shown additional performance\nimprovements. However, such multitask models entangle information between the\ntasks, encoding the mutual dependencies present in label distributions in the\nreal world data used for training. This work explores the disentanglement of\nmultimodal signal representations for the primary task of emotion recognition\nand a secondary person identification task. In particular, we developed a\nmultitask framework to extract low-dimensional embeddings that aim to capture\nemotion specific information, while containing minimal information related to\nperson identity. We evaluate three different techniques for disentanglement and\nreport results of up to 13% disentanglement while maintaining emotion\nrecognition performance.",
+    "link": "http://arxiv.org/abs/2102.06269v1",
+    "published": "2021-02-11T20:57:37Z"
+  },
+  {
+    "title": "HCAM -- Hierarchical Cross Attention Model for Multi-modal Emotion\n  Recognition",
+    "authors": [
+      "Soumya Dutta",
+      "Sriram Ganapathy"
+    ],
+    "abstract": "Emotion recognition in conversations is challenging due to the multi-modal\nnature of the emotion expression. We propose a hierarchical cross-attention\nmodel (HCAM) approach to multi-modal emotion recognition using a combination of\nrecurrent and co-attention neural network models. The input to the model\nconsists of two modalities, i) audio data, processed through a learnable\nwav2vec approach and, ii) text data represented using a bidirectional encoder\nrepresentations from transformers (BERT) model. The audio and text\nrepresentations are processed using a set of bi-directional recurrent neural\nnetwork layers with self-attention that converts each utterance in a given\nconversation to a fixed dimensional embedding. In order to incorporate\ncontextual knowledge and the information across the two modalities, the audio\nand text embeddings are combined using a co-attention layer that attempts to\nweigh the utterance level embeddings relevant to the task of emotion\nrecognition. The neural network parameters in the audio layers, text layers as\nwell as the multi-modal co-attention layers, are hierarchically trained for the\nemotion classification task. We perform experiments on three established\ndatasets namely, IEMOCAP, MELD and CMU-MOSI, where we illustrate that the\nproposed model improves significantly over other benchmarks and helps achieve\nstate-of-art results on all these datasets.",
+    "link": "http://arxiv.org/abs/2304.06910v2",
+    "published": "2023-04-14T03:25:00Z"
+  },
+  {
+    "title": "Omni-Emotion: Extending Video MLLM with Detailed Face and Audio Modeling\n  for Multimodal Emotion Analysis",
+    "authors": [
+      "Qize Yang",
+      "Detao Bai",
+      "Yi-Xing Peng",
+      "Xihan Wei"
+    ],
+    "abstract": "Understanding emotions accurately is essential for fields like human-computer\ninteraction. Due to the complexity of emotions and their multi-modal nature\n(e.g., emotions are influenced by facial expressions and audio), researchers\nhave turned to using multi-modal models to understand human emotions rather\nthan single-modality. However, current video multi-modal large language models\n(MLLMs) encounter difficulties in effectively integrating audio and identifying\nsubtle facial micro-expressions. Furthermore, the lack of detailed emotion\nanalysis datasets also limits the development of multimodal emotion analysis.\nTo address these issues, we introduce a self-reviewed dataset and a\nhuman-reviewed dataset, comprising 24,137 coarse-grained samples and 3,500\nmanually annotated samples with detailed emotion annotations, respectively.\nThese datasets allow models to learn from diverse scenarios and better\ngeneralize to real-world applications. Moreover, in addition to the audio\nmodeling, we propose to explicitly integrate facial encoding models into the\nexisting advanced Video MLLM, enabling the MLLM to effectively unify audio and\nthe subtle facial cues for emotion understanding. By aligning these features\nwithin a unified space and employing instruction tuning in our proposed\ndatasets, our Omni-Emotion achieves state-of-the-art performance in both\nemotion recognition and reasoning tasks.",
+    "link": "http://arxiv.org/abs/2501.09502v1",
+    "published": "2025-01-16T12:27:05Z"
+  },
+  {
+    "title": "Self context-aware emotion perception on human-robot interaction",
+    "authors": [
+      "Zihan Lin",
+      "Francisco Cruz",
+      "Eduardo Benitez Sandoval"
+    ],
+    "abstract": "Emotion recognition plays a crucial role in various domains of human-robot\ninteraction. In long-term interactions with humans, robots need to respond\ncontinuously and accurately, however, the mainstream emotion recognition\nmethods mostly focus on short-term emotion recognition, disregarding the\ncontext in which emotions are perceived. Humans consider that contextual\ninformation and different contexts can lead to completely different emotional\nexpressions. In this paper, we introduce self context-aware model (SCAM) that\nemploys a two-dimensional emotion coordinate system for anchoring and\nre-labeling distinct emotions. Simultaneously, it incorporates its distinctive\ninformation retention structure and contextual loss. This approach has yielded\nsignificant improvements across audio, video, and multimodal. In the auditory\nmodality, there has been a notable enhancement in accuracy, rising from 63.10%\nto 72.46%. Similarly, the visual modality has demonstrated improved accuracy,\nincreasing from 77.03% to 80.82%. In the multimodal, accuracy has experienced\nan elevation from 77.48% to 78.93%. In the future, we will validate the\nreliability and usability of SCAM on robots through psychology experiments.",
+    "link": "http://arxiv.org/abs/2401.10946v1",
+    "published": "2024-01-18T10:58:27Z"
+  },
+  {
+    "title": "Emotion Neural Transducer for Fine-Grained Speech Emotion Recognition",
+    "authors": [
+      "Siyuan Shen",
+      "Yu Gao",
+      "Feng Liu",
+      "Hanyang Wang",
+      "Aimin Zhou"
+    ],
+    "abstract": "The mainstream paradigm of speech emotion recognition (SER) is identifying\nthe single emotion label of the entire utterance. This line of works neglect\nthe emotion dynamics at fine temporal granularity and mostly fail to leverage\nlinguistic information of speech signal explicitly. In this paper, we propose\nEmotion Neural Transducer for fine-grained speech emotion recognition with\nautomatic speech recognition (ASR) joint training. We first extend typical\nneural transducer with emotion joint network to construct emotion lattice for\nfine-grained SER. Then we propose lattice max pooling on the alignment lattice\nto facilitate distinguishing emotional and non-emotional frames. To adapt\nfine-grained SER to transducer inference manner, we further make blank, the\nspecial symbol of ASR, serve as underlying emotion indicator as well, yielding\nFactorized Emotion Neural Transducer. For typical utterance-level SER, our ENT\nmodels outperform state-of-the-art methods on IEMOCAP in low word error rate.\nExperiments on IEMOCAP and the latest speech emotion diarization dataset ZED\nalso demonstrate the superiority of fine-grained emotion modeling. Our code is\navailable at https://github.com/ECNU-Cross-Innovation-Lab/ENT.",
+    "link": "http://arxiv.org/abs/2403.19224v1",
+    "published": "2024-03-28T08:38:43Z"
+  },
+  {
+    "title": "HiCMAE: Hierarchical Contrastive Masked Autoencoder for Self-Supervised\n  Audio-Visual Emotion Recognition",
+    "authors": [
+      "Licai Sun",
+      "Zheng Lian",
+      "Bin Liu",
+      "Jianhua Tao"
+    ],
+    "abstract": "Audio-Visual Emotion Recognition (AVER) has garnered increasing attention in\nrecent years for its critical role in creating emotion-ware intelligent\nmachines. Previous efforts in this area are dominated by the supervised\nlearning paradigm. Despite significant progress, supervised learning is meeting\nits bottleneck due to the longstanding data scarcity issue in AVER. Motivated\nby recent advances in self-supervised learning, we propose Hierarchical\nContrastive Masked Autoencoder (HiCMAE), a novel self-supervised framework that\nleverages large-scale self-supervised pre-training on vast unlabeled\naudio-visual data to promote the advancement of AVER. Following prior arts in\nself-supervised audio-visual representation learning, HiCMAE adopts two primary\nforms of self-supervision for pre-training, namely masked data modeling and\ncontrastive learning. Unlike them which focus exclusively on top-layer\nrepresentations while neglecting explicit guidance of intermediate layers,\nHiCMAE develops a three-pronged strategy to foster hierarchical audio-visual\nfeature learning and improve the overall quality of learned representations. To\nverify the effectiveness of HiCMAE, we conduct extensive experiments on 9\ndatasets covering both categorical and dimensional AVER tasks. Experimental\nresults show that our method significantly outperforms state-of-the-art\nsupervised and self-supervised audio-visual methods, which indicates that\nHiCMAE is a powerful audio-visual emotion representation learner. Codes and\nmodels will be publicly available at https://github.com/sunlicai/HiCMAE.",
+    "link": "http://arxiv.org/abs/2401.05698v2",
+    "published": "2024-01-11T07:00:07Z"
+  },
+  {
+    "title": "An Empirical Study and Improvement for Speech Emotion Recognition",
+    "authors": [
+      "Zhen Wu",
+      "Yizhe Lu",
+      "Xinyu Dai"
+    ],
+    "abstract": "Multimodal speech emotion recognition aims to detect speakers' emotions from\naudio and text. Prior works mainly focus on exploiting advanced networks to\nmodel and fuse different modality information to facilitate performance, while\nneglecting the effect of different fusion strategies on emotion recognition. In\nthis work, we consider a simple yet important problem: how to fuse audio and\ntext modality information is more helpful for this multimodal task. Further, we\npropose a multimodal emotion recognition model improved by perspective loss.\nEmpirical results show our method obtained new state-of-the-art results on the\nIEMOCAP dataset. The in-depth analysis explains why the improved model can\nachieve improvements and outperforms baselines.",
+    "link": "http://arxiv.org/abs/2304.03899v1",
+    "published": "2023-04-08T03:24:06Z"
+  },
+  {
+    "title": "Parameter Efficient Finetuning for Speech Emotion Recognition and Domain\n  Adaptation",
+    "authors": [
+      "Nineli Lashkarashvili",
+      "Wen Wu",
+      "Guangzhi Sun",
+      "Philip C. Woodland"
+    ],
+    "abstract": "Foundation models have shown superior performance for speech emotion\nrecognition (SER). However, given the limited data in emotion corpora,\nfinetuning all parameters of large pre-trained models for SER can be both\nresource-intensive and susceptible to overfitting. This paper investigates\nparameter-efficient finetuning (PEFT) for SER. Various PEFT adaptors are\nsystematically studied for both classification of discrete emotion categories\nand prediction of dimensional emotional attributes. The results demonstrate\nthat the combination of PEFT methods surpasses full finetuning with a\nsignificant reduction in the number of trainable parameters. Furthermore, a\ntwo-stage adaptation strategy is proposed to adapt models trained on acted\nemotion data, which is more readily available, to make the model more adept at\ncapturing natural emotional expressions. Both intra- and cross-corpus\nexperiments validate the efficacy of the proposed approach in enhancing the\nperformance on both the source and target domains.",
+    "link": "http://arxiv.org/abs/2402.11747v1",
+    "published": "2024-02-19T00:21:07Z"
+  },
+  {
+    "title": "Unifying the Discrete and Continuous Emotion labels for Speech Emotion\n  Recognition",
+    "authors": [
+      "Roshan Sharma",
+      "Hira Dhamyal",
+      "Bhiksha Raj",
+      "Rita Singh"
+    ],
+    "abstract": "Traditionally, in paralinguistic analysis for emotion detection from speech,\nemotions have been identified with discrete or dimensional (continuous-valued)\nlabels. Accordingly, models that have been proposed for emotion detection use\none or the other of these label types. However, psychologists like Russell and\nPlutchik have proposed theories and models that unite these views, maintaining\nthat these representations have shared and complementary information. This\npaper is an attempt to validate these viewpoints computationally. To this end,\nwe propose a model to jointly predict continuous and discrete emotional\nattributes and show how the relationship between these can be utilized to\nimprove the robustness and performance of emotion recognition tasks. Our\napproach comprises multi-task and hierarchical multi-task learning frameworks\nthat jointly model the relationships between continuous-valued and discrete\nemotion labels. Experimental results on two widely used datasets (IEMOCAP and\nMSPPodcast) for speech-based emotion recognition show that our model results in\nstatistically significant improvements in performance over strong baselines\nwith non-unified approaches. We also demonstrate that using one type of label\n(discrete or continuous-valued) for training improves recognition performance\nin tasks that use the other type of label. Experimental results and reasoning\nfor this approach (called the mismatched training approach) are also presented.",
+    "link": "http://arxiv.org/abs/2210.16642v1",
+    "published": "2022-10-29T16:12:31Z"
+  },
+  {
+    "title": "Enriching Multimodal Sentiment Analysis through Textual Emotional\n  Descriptions of Visual-Audio Content",
+    "authors": [
+      "Sheng Wu",
+      "Xiaobao Wang",
+      "Longbiao Wang",
+      "Dongxiao He",
+      "Jianwu Dang"
+    ],
+    "abstract": "Multimodal Sentiment Analysis (MSA) stands as a critical research frontier,\nseeking to comprehensively unravel human emotions by amalgamating text, audio,\nand visual data. Yet, discerning subtle emotional nuances within audio and\nvideo expressions poses a formidable challenge, particularly when emotional\npolarities across various segments appear similar. In this paper, our objective\nis to spotlight emotion-relevant attributes of audio and visual modalities to\nfacilitate multimodal fusion in the context of nuanced emotional shifts in\nvisual-audio scenarios. To this end, we introduce DEVA, a progressive fusion\nframework founded on textual sentiment descriptions aimed at accentuating\nemotional features of visual-audio content. DEVA employs an Emotional\nDescription Generator (EDG) to transmute raw audio and visual data into\ntextualized sentiment descriptions, thereby amplifying their emotional\ncharacteristics. These descriptions are then integrated with the source data to\nyield richer, enhanced features. Furthermore, DEVA incorporates the Text-guided\nProgressive Fusion Module (TPF), leveraging varying levels of text as a core\nmodality guide. This module progressively fuses visual-audio minor modalities\nto alleviate disparities between text and visual-audio modalities. Experimental\nresults on widely used sentiment analysis benchmark datasets, including MOSI,\nMOSEI, and CH-SIMS, underscore significant enhancements compared to\nstate-of-the-art models. Moreover, fine-grained emotion experiments corroborate\nthe robust sensitivity of DEVA to subtle emotional variations.",
+    "link": "http://arxiv.org/abs/2412.10460v1",
+    "published": "2024-12-12T11:30:41Z"
+  },
+  {
+    "title": "Describing emotions with acoustic property prompts for speech emotion\n  recognition",
+    "authors": [
+      "Hira Dhamyal",
+      "Benjamin Elizalde",
+      "Soham Deshmukh",
+      "Huaming Wang",
+      "Bhiksha Raj",
+      "Rita Singh"
+    ],
+    "abstract": "Emotions lie on a broad continuum and treating emotions as a discrete number\nof classes limits the ability of a model to capture the nuances in the\ncontinuum. The challenge is how to describe the nuances of emotions and how to\nenable a model to learn the descriptions. In this work, we devise a method to\nautomatically create a description (or prompt) for a given audio by computing\nacoustic properties, such as pitch, loudness, speech rate, and articulation\nrate. We pair a prompt with its corresponding audio using 5 different emotion\ndatasets. We trained a neural network model using these audio-text pairs. Then,\nwe evaluate the model using one more dataset. We investigate how the model can\nlearn to associate the audio with the descriptions, resulting in performance\nimprovement of Speech Emotion Recognition and Speech Audio Retrieval. We expect\nour findings to motivate research describing the broad continuum of emotion",
+    "link": "http://arxiv.org/abs/2211.07737v1",
+    "published": "2022-11-14T20:29:37Z"
+  },
+  {
+    "title": "MoEE: Mixture of Emotion Experts for Audio-Driven Portrait Animation",
+    "authors": [
+      "Huaize Liu",
+      "Wenzhang Sun",
+      "Donglin Di",
+      "Shibo Sun",
+      "Jiahui Yang",
+      "Changqing Zou",
+      "Hujun Bao"
+    ],
+    "abstract": "The generation of talking avatars has achieved significant advancements in\nprecise audio synchronization. However, crafting lifelike talking head videos\nrequires capturing a broad spectrum of emotions and subtle facial expressions.\nCurrent methods face fundamental challenges: a) the absence of frameworks for\nmodeling single basic emotional expressions, which restricts the generation of\ncomplex emotions such as compound emotions; b) the lack of comprehensive\ndatasets rich in human emotional expressions, which limits the potential of\nmodels. To address these challenges, we propose the following innovations: 1)\nthe Mixture of Emotion Experts (MoEE) model, which decouples six fundamental\nemotions to enable the precise synthesis of both singular and compound\nemotional states; 2) the DH-FaceEmoVid-150 dataset, specifically curated to\ninclude six prevalent human emotional expressions as well as four types of\ncompound emotions, thereby expanding the training potential of emotion-driven\nmodels. Furthermore, to enhance the flexibility of emotion control, we propose\nan emotion-to-latents module that leverages multimodal inputs, aligning diverse\ncontrol signals-such as audio, text, and labels-to ensure more varied control\ninputs as well as the ability to control emotions using audio alone. Through\nextensive quantitative and qualitative evaluations, we demonstrate that the\nMoEE framework, in conjunction with the DH-FaceEmoVid-150 dataset, excels in\ngenerating complex emotional expressions and nuanced facial details, setting a\nnew benchmark in the field. These datasets will be publicly released.",
+    "link": "http://arxiv.org/abs/2501.01808v2",
+    "published": "2025-01-03T13:43:21Z"
+  },
+  {
+    "title": "Efficient Emotional Adaptation for Audio-Driven Talking-Head Generation",
+    "authors": [
+      "Yuan Gan",
+      "Zongxin Yang",
+      "Xihang Yue",
+      "Lingyun Sun",
+      "Yi Yang"
+    ],
+    "abstract": "Audio-driven talking-head synthesis is a popular research topic for virtual\nhuman-related applications. However, the inflexibility and inefficiency of\nexisting methods, which necessitate expensive end-to-end training to transfer\nemotions from guidance videos to talking-head predictions, are significant\nlimitations. In this work, we propose the Emotional Adaptation for Audio-driven\nTalking-head (EAT) method, which transforms emotion-agnostic talking-head\nmodels into emotion-controllable ones in a cost-effective and efficient manner\nthrough parameter-efficient adaptations. Our approach utilizes a pretrained\nemotion-agnostic talking-head transformer and introduces three lightweight\nadaptations (the Deep Emotional Prompts, Emotional Deformation Network, and\nEmotional Adaptation Module) from different perspectives to enable precise and\nrealistic emotion controls. Our experiments demonstrate that our approach\nachieves state-of-the-art performance on widely-used benchmarks, including LRW\nand MEAD. Additionally, our parameter-efficient adaptations exhibit remarkable\ngeneralization ability, even in scenarios where emotional training videos are\nscarce or nonexistent. Project website: https://yuangan.github.io/eat/",
+    "link": "http://arxiv.org/abs/2309.04946v2",
+    "published": "2023-09-10T06:33:17Z"
+  },
+  {
+    "title": "Emotion Embeddings $\\unicode{x2014}$ Learning Stable and Homogeneous\n  Abstractions from Heterogeneous Affective Datasets",
+    "authors": [
+      "Sven Buechel",
+      "Udo Hahn"
+    ],
+    "abstract": "Human emotion is expressed in many communication modalities and media formats\nand so their computational study is equally diversified into natural language\nprocessing, audio signal analysis, computer vision, etc. Similarly, the large\nvariety of representation formats used in previous research to describe\nemotions (polarity scales, basic emotion categories, dimensional approaches,\nappraisal theory, etc.) have led to an ever proliferating diversity of\ndatasets, predictive models, and software tools for emotion analysis. Because\nof these two distinct types of heterogeneity, at the expressional and\nrepresentational level, there is a dire need to unify previous work on\nincreasingly diverging data and label types. This article presents such a\nunifying computational model. We propose a training procedure that learns a\nshared latent representation for emotions, so-called emotion embeddings,\nindependent of different natural languages, communication modalities, media or\nrepresentation label formats, and even disparate model architectures.\nExperiments on a wide range of heterogeneous affective datasets indicate that\nthis approach yields the desired interoperability for the sake of reusability,\ninterpretability and flexibility, without penalizing prediction quality. Code\nand data are archived under https://doi.org/10.5281/zenodo.7405327 .",
+    "link": "http://arxiv.org/abs/2308.07871v1",
+    "published": "2023-08-15T16:39:10Z"
+  },
+  {
+    "title": "EmotionCaps: Enhancing Audio Captioning Through Emotion-Augmented Data\n  Generation",
+    "authors": [
+      "Mithun Manivannan",
+      "Vignesh Nethrapalli",
+      "Mark Cartwright"
+    ],
+    "abstract": "Recent progress in audio-language modeling, such as automated audio\ncaptioning, has benefited from training on synthetic data generated with the\naid of large-language models. However, such approaches for environmental sound\ncaptioning have primarily focused on audio event tags and have not explored\nleveraging emotional information that may be present in recordings. In this\nwork, we explore the benefit of generating emotion-augmented synthetic audio\ncaption data by instructing ChatGPT with additional acoustic information in the\nform of estimated soundscape emotion. To do so, we introduce EmotionCaps, an\naudio captioning dataset comprised of approximately 120,000 audio clips with\npaired synthetic descriptions enriched with soundscape emotion recognition\n(SER) information. We hypothesize that this additional information will result\nin higher-quality captions that match the emotional tone of the audio\nrecording, which will, in turn, improve the performance of captioning models\ntrained with this data. We test this hypothesis through both objective and\nsubjective evaluation, comparing models trained with the EmotionCaps dataset to\nmultiple baseline models. Our findings challenge current approaches to\ncaptioning and suggest new directions for developing and assessing captioning\nmodels.",
+    "link": "http://arxiv.org/abs/2410.12028v1",
+    "published": "2024-10-15T19:57:37Z"
+  },
+  {
+    "title": "Research on several key technologies in practical speech emotion\n  recognition",
+    "authors": [
+      "Chengwei Huang"
+    ],
+    "abstract": "In this dissertation the practical speech emotion recognition technology is\nstudied, including several cognitive related emotion types, namely fidgetiness,\nconfidence and tiredness. The high quality of naturalistic emotional speech\ndata is the basis of this research. The following techniques are used for\ninducing practical emotional speech: cognitive task, computer game, noise\nstimulation, sleep deprivation and movie clips.\n  A practical speech emotion recognition system is studied based on Gaussian\nmixture model. A two-class classifier set is adopted for performance\nimprovement under the small sample case. Considering the context information in\ncontinuous emotional speech, a Gaussian mixture model embedded with Markov\nnetworks is proposed.\n  A further study is carried out for system robustness analysis. First, noise\nreduction algorithm based on auditory masking properties is fist introduced to\nthe practical speech emotion recognition. Second, to deal with the complicated\nunknown emotion types under real situation, an emotion recognition method with\nrejection ability is proposed, which enhanced the system compatibility against\nunknown emotion samples. Third, coping with the difficulties brought by a large\nnumber of unknown speakers, an emotional feature normalization method based on\nspeaker-sensitive feature clustering is proposed. Fourth, by adding the\nelectrocardiogram channel, a bi-modal emotion recognition system based on\nspeech signals and electrocardiogram signals is first introduced.\n  The speech emotion recognition methods studied in this dissertation may be\nextended into the cross-language speech emotion recognition and the whispered\nspeech emotion recognition.",
+    "link": "http://arxiv.org/abs/1709.09364v1",
+    "published": "2017-09-27T07:21:26Z"
+  },
+  {
+    "title": "EmotiCrafter: Text-to-Emotional-Image Generation based on\n  Valence-Arousal Model",
+    "authors": [
+      "Yi He",
+      "Shengqi Dang",
+      "Long Ling",
+      "Ziqing Qian",
+      "Nanxuan Zhao",
+      "Nan Cao"
+    ],
+    "abstract": "Recent research shows that emotions can enhance users' cognition and\ninfluence information communication. While research on visual emotion analysis\nis extensive, limited work has been done on helping users generate emotionally\nrich image content. Existing work on emotional image generation relies on\ndiscrete emotion categories, making it challenging to capture complex and\nsubtle emotional nuances accurately. Additionally, these methods struggle to\ncontrol the specific content of generated images based on text prompts. In this\nwork, we introduce the new task of continuous emotional image content\ngeneration (C-EICG) and present EmotiCrafter, an emotional image generation\nmodel that generates images based on text prompts and Valence-Arousal values.\nSpecifically, we propose a novel emotion-embedding mapping network that embeds\nValence-Arousal values into textual features, enabling the capture of specific\nemotions in alignment with intended input prompts. Additionally, we introduce a\nloss function to enhance emotion expression. The experimental results show that\nour method effectively generates images representing specific emotions with the\ndesired content and outperforms existing techniques.",
+    "link": "http://arxiv.org/abs/2501.05710v1",
+    "published": "2025-01-10T04:41:37Z"
+  },
+  {
+    "title": "Multi-Branch Network for Imagery Emotion Prediction",
+    "authors": [
+      "Quoc-Bao Ninh",
+      "Hai-Chan Nguyen",
+      "Triet Huynh",
+      "Trung-Nghia Le"
+    ],
+    "abstract": "For a long time, images have proved perfect at both storing and conveying\nrich semantics, especially human emotions. A lot of research has been conducted\nto provide machines with the ability to recognize emotions in photos of people.\nPrevious methods mostly focus on facial expressions but fail to consider the\nscene context, meanwhile scene context plays an important role in predicting\nemotions, leading to more accurate results. In addition,\nValence-Arousal-Dominance (VAD) values offer a more precise quantitative\nunderstanding of continuous emotions, yet there has been less emphasis on\npredicting them compared to discrete emotional categories. In this paper, we\npresent a novel Multi-Branch Network (MBN), which utilizes various source\ninformation, including faces, bodies, and scene contexts to predict both\ndiscrete and continuous emotions in an image. Experimental results on EMOTIC\ndataset, which contains large-scale images of people in unconstrained\nsituations labeled with 26 discrete categories of emotions and VAD values, show\nthat our proposed method significantly outperforms state-of-the-art methods\nwith 28.4% in mAP and 0.93 in MAE. The results highlight the importance of\nutilizing multiple contextual information in emotion prediction and illustrate\nthe potential of our proposed method in a wide range of applications, such as\neffective computing, human-computer interaction, and social robotics. Source\ncode:\nhttps://github.com/BaoNinh2808/Multi-Branch-Network-for-Imagery-Emotion-Prediction",
+    "link": "http://arxiv.org/abs/2312.07500v1",
+    "published": "2023-12-12T18:34:56Z"
+  },
+  {
+    "title": "Automatic Emotion Modelling in Written Stories",
+    "authors": [
+      "Lukas Christ",
+      "Shahin Amiriparian",
+      "Manuel Milling",
+      "Ilhan Aslan",
+      "Bj\u00f6rn W. Schuller"
+    ],
+    "abstract": "Telling stories is an integral part of human communication which can evoke\nemotions and influence the affective states of the audience. Automatically\nmodelling emotional trajectories in stories has thus attracted considerable\nscholarly interest. However, as most existing works have been limited to\nunsupervised dictionary-based approaches, there is no labelled benchmark for\nthis task. We address this gap by introducing continuous valence and arousal\nannotations for an existing dataset of children's stories annotated with\ndiscrete emotion categories. We collect additional annotations for this data\nand map the originally categorical labels to the valence and arousal space.\nLeveraging recent advances in Natural Language Processing, we propose a set of\nnovel Transformer-based methods for predicting valence and arousal signals over\nthe course of written stories. We explore several strategies for fine-tuning a\npretrained ELECTRA model and study the benefits of considering a sentence's\ncontext when inferring its emotionality. Moreover, we experiment with\nadditional LSTM and Transformer layers. The best configuration achieves a\nConcordance Correlation Coefficient (CCC) of .7338 for valence and .6302 for\narousal on the test set, demonstrating the suitability of our proposed\napproach. Our code and additional annotations are made available at\nhttps://github.com/lc0197/emotion_modelling_stories.",
+    "link": "http://arxiv.org/abs/2212.11382v1",
+    "published": "2022-12-21T21:46:01Z"
+  },
+  {
+    "title": "Bridging Discrete and Continuous: A Multimodal Strategy for Complex\n  Emotion Detection",
+    "authors": [
+      "Jiehui Jia",
+      "Huan Zhang",
+      "Jinhua Liang"
+    ],
+    "abstract": "In the domain of human-computer interaction, accurately recognizing and\ninterpreting human emotions is crucial yet challenging due to the complexity\nand subtlety of emotional expressions. This study explores the potential for\ndetecting a rich and flexible range of emotions through a multimodal approach\nwhich integrates facial expressions, voice tones, and transcript from video\nclips. We propose a novel framework that maps variety of emotions in a\nthree-dimensional Valence-Arousal-Dominance (VAD) space, which could reflect\nthe fluctuations and positivity/negativity of emotions to enable a more variety\nand comprehensive representation of emotional states. We employed K-means\nclustering to transit emotions from traditional discrete categorization to a\ncontinuous labeling system and built a classifier for emotion recognition upon\nthis system. The effectiveness of the proposed model is evaluated using the\nMER2024 dataset, which contains culturally consistent video clips from Chinese\nmovies and TV series, annotated with both discrete and open-vocabulary emotion\nlabels. Our experiment successfully achieved the transformation between\ndiscrete and continuous models, and the proposed model generated a more diverse\nand comprehensive set of emotion vocabulary while maintaining strong accuracy.",
+    "link": "http://arxiv.org/abs/2409.07901v1",
+    "published": "2024-09-12T10:10:22Z"
+  },
+  {
+    "title": "Emosaic: Visualizing Affective Content of Text at Varying Granularity",
+    "authors": [
+      "Philipp Geuder",
+      "Marie Claire Leidinger",
+      "Martin von Lupin",
+      "Marian D\u00f6rk",
+      "Tobias Schr\u00f6der"
+    ],
+    "abstract": "This paper presents Emosaic, a tool for visualizing the emotional tone of\ntext documents, considering multiple dimensions of emotion and varying levels\nof semantic granularity. Emosaic is grounded in psychological research on the\nrelationship between language, affect, and color perception. We capitalize on\nan established three-dimensional model of human emotion: valence (good, nice\nvs. bad, awful), arousal (calm, passive vs. exciting, active) and dominance\n(weak, controlled vs. strong, in control). Previously, multi-dimensional models\nof emotion have been used rarely in visualizations of textual data, due to the\nperceptual challenges involved. Furthermore, until recently most text\nvisualizations remained at a high level, precluding closer engagement with the\ndeep semantic content of the text. Informed by empirical studies, we introduce\na color mapping that translates any point in three-dimensional affective space\ninto a unique color. Emosaic uses affective dictionaries of words annotated\nwith the three emotional parameters of the valence-arousal-dominance model to\nextract emotional meanings from texts and then assigns to them corresponding\ncolor parameters of the hue-saturation-brightness color space. This approach of\nmapping emotion to color is aimed at helping readers to more easily grasp the\nemotional tone of the text. Several features of Emosaic allow readers to\ninteractively explore the affective content of the text in more detail; e.g.,\nin aggregated form as histograms, in sequential form following the order of\ntext, and in detail embedded into the text display itself. Interaction\ntechniques have been included to allow for filtering and navigating of text and\nvisualizations.",
+    "link": "http://arxiv.org/abs/2002.10096v1",
+    "published": "2020-02-24T07:25:01Z"
+  },
+  {
+    "title": "Measuring Cultural Relativity of Emotional Valence and Arousal using\n  Semantic Clustering and Twitter",
+    "authors": [
+      "Eugene Yuta Bann",
+      "Joanna J. Bryson"
+    ],
+    "abstract": "Researchers since at least Darwin have debated whether and to what extent\nemotions are universal or culture-dependent. However, previous studies have\nprimarily focused on facial expressions and on a limited set of emotions. Given\nthat emotions have a substantial impact on human lives, evidence for cultural\nemotional relativity might be derived by applying distributional semantics\ntechniques to a text corpus of self-reported behaviour. Here, we explore this\nidea by measuring the valence and arousal of the twelve most popular emotion\nkeywords expressed on the micro-blogging site Twitter. We do this in three\ngeographical regions: Europe, Asia and North America. We demonstrate that in\nour sample, the valence and arousal levels of the same emotion keywords differ\nsignificantly with respect to these geographical regions --- Europeans are, or\nat least present themselves as more positive and aroused, North Americans are\nmore negative and Asians appear to be more positive but less aroused when\ncompared to global valence and arousal levels of the same emotion keywords. Our\nwork is the first in kind to programatically map large text corpora to a\ndimensional model of affect.",
+    "link": "http://arxiv.org/abs/1304.7507v1",
+    "published": "2013-04-28T19:30:11Z"
+  },
+  {
+    "title": "Context Based Emotion Recognition using EMOTIC Dataset",
+    "authors": [
+      "Ronak Kosti",
+      "Jose M. Alvarez",
+      "Adria Recasens",
+      "Agata Lapedriza"
+    ],
+    "abstract": "In our everyday lives and social interactions we often try to perceive the\nemotional states of people. There has been a lot of research in providing\nmachines with a similar capacity of recognizing emotions. From a computer\nvision perspective, most of the previous efforts have been focusing in\nanalyzing the facial expressions and, in some cases, also the body pose. Some\nof these methods work remarkably well in specific settings. However, their\nperformance is limited in natural, unconstrained environments. Psychological\nstudies show that the scene context, in addition to facial expression and body\npose, provides important information to our perception of people's emotions.\nHowever, the processing of the context for automatic emotion recognition has\nnot been explored in depth, partly due to the lack of proper data. In this\npaper we present EMOTIC, a dataset of images of people in a diverse set of\nnatural situations, annotated with their apparent emotion. The EMOTIC dataset\ncombines two different types of emotion representation: (1) a set of 26\ndiscrete categories, and (2) the continuous dimensions Valence, Arousal, and\nDominance. We also present a detailed statistical and algorithmic analysis of\nthe dataset along with annotators' agreement analysis. Using the EMOTIC dataset\nwe train different CNN models for emotion recognition, combining the\ninformation of the bounding box containing the person with the contextual\ninformation extracted from the scene. Our results show how scene context\nprovides important information to automatically recognize emotional states and\nmotivate further research in this direction. Dataset and code is open-sourced\nand available at: https://github.com/rkosti/emotic and link for the\npeer-reviewed published article: https://ieeexplore.ieee.org/document/8713881",
+    "link": "http://arxiv.org/abs/2003.13401v1",
+    "published": "2020-03-30T12:38:50Z"
+  },
+  {
+    "title": "Emotion Representation Mapping for Automatic Lexicon Construction\n  (Mostly) Performs on Human Level",
+    "authors": [
+      "Sven Buechel",
+      "Udo Hahn"
+    ],
+    "abstract": "Emotion Representation Mapping (ERM) has the goal to convert existing emotion\nratings from one representation format into another one, e.g., mapping\nValence-Arousal-Dominance annotations for words or sentences into Ekman's Basic\nEmotions and vice versa. ERM can thus not only be considered as an alternative\nto Word Emotion Induction (WEI) techniques for automatic emotion lexicon\nconstruction but may also help mitigate problems that come from the\nproliferation of emotion representation formats in recent years. We propose a\nnew neural network approach to ERM that not only outperforms the previous\nstate-of-the-art. Equally important, we present a refined evaluation\nmethodology and gather strong evidence that our model yields results which are\n(almost) as reliable as human annotations, even in cross-lingual settings.\nBased on these results we generate new emotion ratings for 13 typologically\ndiverse languages and claim that they have near-gold quality, at least.",
+    "link": "http://arxiv.org/abs/1806.08890v1",
+    "published": "2018-06-23T02:00:13Z"
+  },
+  {
+    "title": "Dimensional Emotion Detection from Categorical Emotion",
+    "authors": [
+      "Sungjoon Park",
+      "Jiseon Kim",
+      "Seonghyeon Ye",
+      "Jaeyeol Jeon",
+      "Hee Young Park",
+      "Alice Oh"
+    ],
+    "abstract": "We present a model to predict fine-grained emotions along the continuous\ndimensions of valence, arousal, and dominance (VAD) with a corpus with\ncategorical emotion annotations. Our model is trained by minimizing the EMD\n(Earth Mover's Distance) loss between the predicted VAD score distribution and\nthe categorical emotion distributions sorted along VAD, and it can\nsimultaneously classify the emotion categories and predict the VAD scores for a\ngiven sentence. We use pre-trained RoBERTa-Large and fine-tune on three\ndifferent corpora with categorical labels and evaluate on EmoBank corpus with\nVAD scores. We show that our approach reaches comparable performance to that of\nthe state-of-the-art classifiers in categorical emotion classification and\nshows significant positive correlations with the ground truth VAD scores. Also,\nfurther training with supervision of VAD labels leads to improved performance\nespecially when dataset is small. We also present examples of predictions of\nappropriate emotion words that are not part of the original annotations.",
+    "link": "http://arxiv.org/abs/1911.02499v2",
+    "published": "2019-11-06T17:16:26Z"
+  },
+  {
+    "title": "Modeling Emotional Trajectories in Written Stories Utilizing\n  Transformers and Weakly-Supervised Learning",
+    "authors": [
+      "Lukas Christ",
+      "Shahin Amiriparian",
+      "Manuel Milling",
+      "Ilhan Aslan",
+      "Bj\u00f6rn W. Schuller"
+    ],
+    "abstract": "Telling stories is an integral part of human communication which can evoke\nemotions and influence the affective states of the audience. Automatically\nmodeling emotional trajectories in stories has thus attracted considerable\nscholarly interest. However, as most existing works have been limited to\nunsupervised dictionary-based approaches, there is no benchmark for this task.\nWe address this gap by introducing continuous valence and arousal labels for an\nexisting dataset of children's stories originally annotated with discrete\nemotion categories. We collect additional annotations for this data and map the\ncategorical labels to the continuous valence and arousal space. For predicting\nthe thus obtained emotionality signals, we fine-tune a DeBERTa model and\nimprove upon this baseline via a weakly supervised learning approach. The best\nconfiguration achieves a Concordance Correlation Coefficient (CCC) of $.8221$\nfor valence and $.7125$ for arousal on the test set, demonstrating the efficacy\nof our proposed approach. A detailed analysis shows the extent to which the\nresults vary depending on factors such as the author, the individual story, or\nthe section within the story. In addition, we uncover the weaknesses of our\napproach by investigating examples that prove to be difficult to predict.",
+    "link": "http://arxiv.org/abs/2406.02251v1",
+    "published": "2024-06-04T12:17:16Z"
+  },
+  {
+    "title": "PERI: Part Aware Emotion Recognition In The Wild",
+    "authors": [
+      "Akshita Mittel",
+      "Shashank Tripathi"
+    ],
+    "abstract": "Emotion recognition aims to interpret the emotional states of a person based\non various inputs including audio, visual, and textual cues. This paper focuses\non emotion recognition using visual features. To leverage the correlation\nbetween facial expression and the emotional state of a person, pioneering\nmethods rely primarily on facial features. However, facial features are often\nunreliable in natural unconstrained scenarios, such as in crowded scenes, as\nthe face lacks pixel resolution and contains artifacts due to occlusion and\nblur. To address this, in the wild emotion recognition exploits full-body\nperson crops as well as the surrounding scene context. In a bid to use body\npose for emotion recognition, such methods fail to realize the potential that\nfacial expressions, when available, offer. Thus, the aim of this paper is\ntwo-fold. First, we demonstrate our method, PERI, to leverage both body pose\nand facial landmarks. We create part aware spatial (PAS) images by extracting\nkey regions from the input image using a mask generated from both body pose and\nfacial landmarks. This allows us to exploit body pose in addition to facial\ncontext whenever available. Second, to reason from the PAS images, we introduce\ncontext infusion (Cont-In) blocks. These blocks attend to part-specific\ninformation, and pass them onto the intermediate features of an emotion\nrecognition network. Our approach is conceptually simple and can be applied to\nany existing emotion recognition method. We provide our results on the publicly\navailable in the wild EMOTIC dataset. Compared to existing methods, PERI\nachieves superior performance and leads to significant improvements in the mAP\nof emotion categories, while decreasing Valence, Arousal and Dominance errors.\nImportantly, we observe that our method improves performance in both images\nwith fully visible faces as well as in images with occluded or blurred faces.",
+    "link": "http://arxiv.org/abs/2210.10130v1",
+    "published": "2022-10-18T20:01:40Z"
+  },
+  {
+    "title": "Free Energy in a Circumplex Model of Emotion",
+    "authors": [
+      "Candice Pattisapu",
+      "Tim Verbelen",
+      "Riddhi J. Pitliya",
+      "Alex B. Kiefer",
+      "Mahault Albarracin"
+    ],
+    "abstract": "Previous active inference accounts of emotion translate fluctuations in free\nenergy to a sense of emotion, mainly focusing on valence. However, in affective\nscience, emotions are often represented as multi-dimensional. In this paper, we\npropose to adopt a Circumplex Model of emotion by mapping emotions into a\ntwo-dimensional spectrum of valence and arousal. We show how one can derive a\nvalence and arousal signal from an agent's expected free energy, relating\narousal to the entropy of posterior beliefs and valence to utility less\nexpected utility. Under this formulation, we simulate artificial agents engaged\nin a search task. We show that the manipulation of priors and object presence\nresults in commonsense variability in emotional states.",
+    "link": "http://arxiv.org/abs/2407.02474v1",
+    "published": "2024-07-02T17:52:25Z"
+  },
+  {
+    "title": "Video Soundtrack Generation by Aligning Emotions and Temporal Boundaries",
+    "authors": [
+      "Serkan Sulun",
+      "Paula Viana",
+      "Matthew E. P. Davies"
+    ],
+    "abstract": "We introduce EMSYNC, a video-based symbolic music generation model that\naligns music with a video's emotional content and temporal boundaries. It\nfollows a two-stage framework, where a pretrained video emotion classifier\nextracts emotional features, and a conditional music generator produces MIDI\nsequences guided by both emotional and temporal cues. We introduce boundary\noffsets, a novel temporal conditioning mechanism that enables the model to\nanticipate and align musical chords with scene cuts. Unlike existing models,\nour approach retains event-based encoding, ensuring fine-grained timing control\nand expressive musical nuances. We also propose a mapping scheme to bridge the\nvideo emotion classifier, which produces discrete emotion categories, with the\nemotion-conditioned MIDI generator, which operates on continuous-valued\nvalence-arousal inputs. In subjective listening tests, EMSYNC outperforms\nstate-of-the-art models across all subjective metrics, for music theory-aware\nparticipants as well as the general listeners.",
+    "link": "http://arxiv.org/abs/2502.10154v1",
+    "published": "2025-02-14T13:32:59Z"
+  },
+  {
+    "title": "Interpretable Deep Neural Networks for Dimensional and Categorical\n  Emotion Recognition in-the-wild",
+    "authors": [
+      "Xia Yicheng",
+      "Dimitrios Kollias"
+    ],
+    "abstract": "Emotions play an important role in people's life. Understanding and\nrecognising is not only important for interpersonal communication, but also has\npromising applications in Human-Computer Interaction, automobile safety and\nmedical research. This project focuses on extending the emotion recognition\ndatabase, and training the CNN + RNN emotion recognition neural networks with\nemotion category representation and valence \\& arousal representation. The\ncombined models are constructed by training the two representations\nsimultaneously. The comparison and analysis between the three types of model\nare discussed. The inner-relationship between two emotion representations and\nthe interpretability of the neural networks are investigated. The findings\nsuggest that categorical emotion recognition performance can benefit from\ntraining with a combined model. And the mapping of emotion category and valence\n\\& arousal values can explain this phenomenon.",
+    "link": "http://arxiv.org/abs/1910.05784v2",
+    "published": "2019-10-13T16:33:18Z"
+  },
+  {
+    "title": "A Controlled Study on Evaluation of Thermal Stimulation Influence on\n  Affective Measures of Uninformed Individuals",
+    "authors": [
+      "Mehdi Hojatmadani",
+      "Samantha Shepard",
+      "Kristen Salomon",
+      "Kyle Reed"
+    ],
+    "abstract": "Although the relationship between temperature and emotional states has been\ninvestigated in the field of haptics, it remains unknown if, or in what\ndirection, temperature affects emotional states. We approach this question at\nthe intersection of haptics and psychology using a custom-built thermal device\nand emotional responses based on photos from the International Affective\nPicture System (IAPS) library. Unlike past research, this study incorporates\ndeception and a control (i.e., neutral temperature) condition. One hundred and\ntwenty naive subjects reported their emotional responses to fifty-six images\nvarying on normative arousal and valence ratings while being exposed to a\ncool~(30{\\deg}C), neutral (33{\\deg}C), or warm (36{\\deg}C) temperature applied\nto the upper back. Participants exposed to warm temperatures reported higher\narousal ratings in some image categories than participants exposed to neutral\nor cool temperatures. Valence ratings were decreased in warm conditions\ncompared to neutral conditions. The emotion wheel was used as a complementary\nmethod of affective response measurement, and exploratory analysis methods were\nimplemented. Although the valence and arousal showed statistical significance,\nthe emotion wheel results did not demonstrate any significant differences\nbetween the temperature conditions.",
+    "link": "http://arxiv.org/abs/2311.12989v1",
+    "published": "2023-11-21T20:50:00Z"
+  },
+  {
+    "title": "Identifying Emotions from Walking using Affective and Deep Features",
+    "authors": [
+      "Tanmay Randhavane",
+      "Uttaran Bhattacharya",
+      "Kyra Kapsaskis",
+      "Kurt Gray",
+      "Aniket Bera",
+      "Dinesh Manocha"
+    ],
+    "abstract": "We present a new data-driven model and algorithm to identify the perceived\nemotions of individuals based on their walking styles. Given an RGB video of an\nindividual walking, we extract his/her walking gait in the form of a series of\n3D poses. Our goal is to exploit the gait features to classify the emotional\nstate of the human into one of four emotions: happy, sad, angry, or neutral.\nOur perceived emotion recognition approach uses deep features learned via LSTM\non labeled emotion datasets. Furthermore, we combine these features with\naffective features computed from gaits using posture and movement cues. These\nfeatures are classified using a Random Forest Classifier. We show that our\nmapping between the combined feature space and the perceived emotional state\nprovides 80.07% accuracy in identifying the perceived emotions. In addition to\nclassifying discrete categories of emotions, our algorithm also predicts the\nvalues of perceived valence and arousal from gaits. We also present an EWalk\n(Emotion Walk) dataset that consists of videos of walking individuals with\ngaits and labeled emotions. To the best of our knowledge, this is the first\ngait-based model to identify perceived emotions from videos of walking\nindividuals.",
+    "link": "http://arxiv.org/abs/1906.11884v4",
+    "published": "2019-06-14T11:41:37Z"
+  },
+  {
+    "title": "Representation Mapping: A Novel Approach to Generate High-Quality\n  Multi-Lingual Emotion Lexicons",
+    "authors": [
+      "Sven Buechel",
+      "Udo Hahn"
+    ],
+    "abstract": "In the past years, sentiment analysis has increasingly shifted attention to\nrepresentational frameworks more expressive than semantic polarity (being\npositive, negative or neutral). However, these richer formats (like Basic\nEmotions or Valence-Arousal-Dominance, and variants therefrom), rooted in\npsychological research, tend to proliferate the number of representation\nschemes for emotion encoding. Thus, a large amount of representationally\nincompatible emotion lexicons has been developed by various research groups\nadopting one or the other emotion representation format. As a consequence, the\nreusability of these resources decreases as does the comparability of systems\nusing them. In this paper, we propose to solve this dilemma by methods and\ntools which map different representation formats onto each other for the sake\nof mutual compatibility and interoperability of language resources. We present\nthe first large-scale investigation of such representation mappings for four\ntypologically diverse languages and find evidence that our approach produces\n(near-)gold quality emotion lexicons, even in cross-lingual settings. Finally,\nwe use our models to create new lexicons for eight typologically diverse\nlanguages.",
+    "link": "http://arxiv.org/abs/1807.00775v1",
+    "published": "2018-07-02T16:29:34Z"
+  },
+  {
+    "title": "Emotion-Based End-to-End Matching Between Image and Music in\n  Valence-Arousal Space",
+    "authors": [
+      "Sicheng Zhao",
+      "Yaxian Li",
+      "Xingxu Yao",
+      "Weizhi Nie",
+      "Pengfei Xu",
+      "Jufeng Yang",
+      "Kurt Keutzer"
+    ],
+    "abstract": "Both images and music can convey rich semantics and are widely used to induce\nspecific emotions. Matching images and music with similar emotions might help\nto make emotion perceptions more vivid and stronger. Existing emotion-based\nimage and music matching methods either employ limited categorical emotion\nstates which cannot well reflect the complexity and subtlety of emotions, or\ntrain the matching model using an impractical multi-stage pipeline. In this\npaper, we study end-to-end matching between image and music based on emotions\nin the continuous valence-arousal (VA) space. First, we construct a large-scale\ndataset, termed Image-Music-Emotion-Matching-Net (IMEMNet), with over 140K\nimage-music pairs. Second, we propose cross-modal deep continuous metric\nlearning (CDCML) to learn a shared latent embedding space which preserves the\ncross-modal similarity relationship in the continuous matching space. Finally,\nwe refine the embedding space by further preserving the single-modal emotion\nrelationship in the VA spaces of both images and music. The metric learning in\nthe embedding space and task regression in the label space are jointly\noptimized for both cross-modal matching and single-modal VA prediction. The\nextensive experiments conducted on IMEMNet demonstrate the superiority of CDCML\nfor emotion-based image and music matching as compared to the state-of-the-art\napproaches.",
+    "link": "http://arxiv.org/abs/2009.05103v1",
+    "published": "2020-08-22T20:12:23Z"
+  },
+  {
+    "title": "Learning Arousal-Valence Representation from Categorical Emotion Labels\n  of Speech",
+    "authors": [
+      "Enting Zhou",
+      "You Zhang",
+      "Zhiyao Duan"
+    ],
+    "abstract": "Dimensional representations of speech emotions such as the arousal-valence\n(AV) representation provide a continuous and fine-grained description and\ncontrol than their categorical counterparts. They have wide applications in\ntasks such as dynamic emotion understanding and expressive text-to-speech\nsynthesis. Existing methods that predict the dimensional emotion representation\nfrom speech cast it as a supervised regression task. These methods face data\nscarcity issues, as dimensional annotations are much harder to acquire than\ncategorical labels. In this work, we propose to learn the AV representation\nfrom categorical emotion labels of speech. We start by learning a rich and\nemotion-relevant high-dimensional speech feature representation using\nself-supervised pre-training and emotion classification fine-tuning. This\nrepresentation is then mapped to the 2D AV space according to psychological\nfindings through anchored dimensionality reduction. Experiments show that our\nmethod achieves a Concordance Correlation Coefficient (CCC) performance\ncomparable to state-of-the-art supervised regression methods on IEMOCAP without\nleveraging ground-truth AV annotations during training. This validates our\nproposed approach on AV prediction. Furthermore, visualization of AV\npredictions on MEAD and EmoDB datasets shows the interpretability of the\nlearned AV representations.",
+    "link": "http://arxiv.org/abs/2311.14816v2",
+    "published": "2023-11-24T19:23:37Z"
+  },
+  {
+    "title": "A Hierarchical Regression Chain Framework for Affective Vocal Burst\n  Recognition",
+    "authors": [
+      "Jinchao Li",
+      "Xixin Wu",
+      "Kaitao Song",
+      "Dongsheng Li",
+      "Xunying Liu",
+      "Helen Meng"
+    ],
+    "abstract": "As a common way of emotion signaling via non-linguistic vocalizations, vocal\nburst (VB) plays an important role in daily social interaction. Understanding\nand modeling human vocal bursts are indispensable for developing robust and\ngeneral artificial intelligence. Exploring computational approaches for\nunderstanding vocal bursts is attracting increasing research attention. In this\nwork, we propose a hierarchical framework, based on chain regression models,\nfor affective recognition from VBs, that explicitly considers multiple\nrelationships: (i) between emotional states and diverse cultures; (ii) between\nlow-dimensional (arousal & valence) and high-dimensional (10 emotion classes)\nemotion spaces; and (iii) between various emotion classes within the\nhigh-dimensional space. To address the challenge of data sparsity, we also use\nself-supervised learning (SSL) representations with layer-wise and temporal\naggregation modules. The proposed systems participated in the ACII Affective\nVocal Burst (A-VB) Challenge 2022 and ranked first in the \"TWO'' and \"CULTURE''\ntasks. Experimental results based on the ACII Challenge 2022 dataset\ndemonstrate the superior performance of the proposed system and the\neffectiveness of considering multiple relationships using hierarchical\nregression chain models.",
+    "link": "http://arxiv.org/abs/2303.08027v1",
+    "published": "2023-03-14T16:08:45Z"
+  },
+  {
+    "title": "OMG - Emotion Challenge Solution",
+    "authors": [
+      "Yuqi Cui",
+      "Xiao Zhang",
+      "Yang Wang",
+      "Chenfeng Guo",
+      "Dongrui Wu"
+    ],
+    "abstract": "This short paper describes our solution to the 2018 IEEE World Congress on\nComputational Intelligence One-Minute Gradual-Emotional Behavior Challenge,\nwhose goal was to estimate continuous arousal and valence values from short\nvideos. We designed four base regression models using visual and audio\nfeatures, and then used a spectral approach to fuse them to obtain improved\nperformance.",
+    "link": "http://arxiv.org/abs/1805.00348v1",
+    "published": "2018-04-30T10:50:30Z"
+  },
+  {
+    "title": "Expert and Crowd-Guided Affect Annotation and Prediction",
+    "authors": [
+      "Ramanathan Subramanian",
+      "Yan Yan",
+      "Nicu Sebe"
+    ],
+    "abstract": "We employ crowdsourcing to acquire time-continuous affective annotations for\nmovie clips, and refine noisy models trained from these crowd annotations\nincorporating expert information within a Multi-task Learning (MTL) framework.\nWe propose a novel \\textbf{e}xpert \\textbf{g}uided MTL (EG-MTL) algorithm,\nwhich minimizes the loss with respect to both crowd and expert labels to learn\na set of weights corresponding to each movie clip for which crowd annotations\nare acquired. We employ EG-MTL to solve two problems, namely,\n\\textbf{\\texttt{P1}}: where dynamic annotations acquired from both experts and\ncrowdworkers for the \\textbf{Validation} set are used to train a regression\nmodel with audio-visual clip descriptors as features, and predict dynamic\narousal and valence levels on 5--15 second snippets derived from the clips; and\n\\textbf{\\texttt{P2}}: where a classification model trained on the\n\\textbf{Validation} set using dynamic crowd and expert annotations (as\nfeatures) and static affective clip labels is used for binary emotion\nrecognition on the \\textbf{Evaluation} set for which only dynamic crowd\nannotations are available. Observed experimental results confirm the\neffectiveness of the EG-MTL algorithm, which is reflected via improved arousal\nand valence estimation for \\textbf{\\texttt{P1}}, and higher recognition\naccuracy for \\textbf{\\texttt{P2}}.",
+    "link": "http://arxiv.org/abs/2112.08432v1",
+    "published": "2021-12-15T19:20:04Z"
+  },
+  {
+    "title": "Symbolic music generation conditioned on continuous-valued emotions",
+    "authors": [
+      "Serkan Sulun",
+      "Matthew E. P. Davies",
+      "Paula Viana"
+    ],
+    "abstract": "In this paper we present a new approach for the generation of\nmulti-instrument symbolic music driven by musical emotion. The principal\nnovelty of our approach centres on conditioning a state-of-the-art transformer\nbased on continuous-valued valence and arousal labels. In addition, we provide\na new large-scale dataset of symbolic music paired with emotion labels in terms\nof valence and arousal. We evaluate our approach in a quantitative manner in\ntwo ways, first by measuring its note prediction accuracy, and second via a\nregression task in the valence-arousal plane. Our results demonstrate that our\nproposed approaches outperform conditioning using control tokens which is\nrepresentative of the current state of the art.",
+    "link": "http://arxiv.org/abs/2203.16165v2",
+    "published": "2022-03-30T09:38:09Z"
+  },
+  {
+    "title": "Regression-based music emotion prediction using triplet neural networks",
+    "authors": [
+      "Kin Wai Cheuk",
+      "Yin-Jyun Luo",
+      "Balamurali B",
+      "T",
+      "Gemma Roig",
+      "Dorien Herremans"
+    ],
+    "abstract": "In this paper, we adapt triplet neural networks (TNNs) to a regression task,\nmusic emotion prediction. Since TNNs were initially introduced for\nclassification, and not for regression, we propose a mechanism that allows them\nto provide meaningful low dimensional representations for regression tasks. We\nthen use these new representations as the input for regression algorithms such\nas support vector machines and gradient boosting machines. To demonstrate the\nTNNs' effectiveness at creating meaningful representations, we compare them to\ndifferent dimensionality reduction methods on music emotion prediction, i.e.,\npredicting valence and arousal values from musical audio signals. Our results\non the DEAM dataset show that by using TNNs we achieve 90% feature\ndimensionality reduction with a 9% improvement in valence prediction and 4%\nimprovement in arousal prediction with respect to our baseline models (without\nTNN). Our TNN method outperforms other dimensionality reduction methods such as\nprincipal component analysis (PCA) and autoencoders (AE). This shows that, in\naddition to providing a compact latent space representation of audio features,\nthe proposed approach has a higher performance than the baseline models.",
+    "link": "http://arxiv.org/abs/2001.09988v2",
+    "published": "2020-01-25T03:34:59Z"
+  },
+  {
+    "title": "Continuous Emotion Recognition during Music Listening Using EEG Signals:\n  A Fuzzy Parallel Cascades Model",
+    "authors": [
+      "Fatemeh Hasanzadeh",
+      "Mohsen Annabestani",
+      "Sahar Moghimi"
+    ],
+    "abstract": "A controversial issue in artificial intelligence is human emotion\nrecognition. This paper presents a fuzzy parallel cascades (FPC) model for\npredicting the continuous subjective appraisal of the emotional content of\nmusic by time-varying spectral content of EEG signals. The EEG, along with an\nemotional appraisal of 15 subjects, was recorded during listening to seven\nmusical excerpts. The emotional appraisement was recorded along the valence and\narousal emotional axes as a continuous signal. The FPC model was composed of\nparallel cascades with each cascade containing a fuzzy logic-based system. The\nFPC model performance was evaluated by comparing with linear regression (LR),\nsupport vector regression (SVR) and Long Short Term Memory recurrent neural\nnetwork (LSTM RNN) models. The RMSE of the FPC was lower than other models for\nthe estimation of both valence and arousal of all musical excerpts. The lowest\nRMSE was 0.089 which was obtained in estimation of the valence of MS4 by the\nFPC model. The analysis of MI of frontal EEG with the valence confirms the role\nof frontal channels in theta frequency band in emotion recognition. Considering\nthe dynamic variations of musical features during songs, employing a modeling\napproach to predict dynamic variations of the emotional appraisal can be a\nplausible substitute for the classification of musical excerpts into predefined\nlabels.",
+    "link": "http://arxiv.org/abs/1910.10489v1",
+    "published": "2019-10-19T10:43:05Z"
+  },
+  {
+    "title": "Emotion Recognition from the perspective of Activity Recognition",
+    "authors": [
+      "Savinay Nagendra",
+      "Prapti Panigrahi"
+    ],
+    "abstract": "Applications of an efficient emotion recognition system can be found in\nseveral domains such as medicine, driver fatigue surveillance, social robotics,\nand human-computer interaction. Appraising human emotional states, behaviors,\nand reactions displayed in real-world settings can be accomplished using latent\ncontinuous dimensions. Continuous dimensional models of human affect, such as\nthose based on valence and arousal are more accurate in describing a broad\nrange of spontaneous everyday emotions than more traditional models of discrete\nstereotypical emotion categories (e.g. happiness, surprise). Most of the prior\nwork on estimating valence and arousal considers laboratory settings and acted\ndata. But, for emotion recognition systems to be deployed and integrated into\nreal-world mobile and computing devices, we need to consider data collected in\nthe world. Action recognition is a domain of Computer Vision that involves\ncapturing complementary information on appearance from still frames and motion\nbetween frames. In this paper, we treat emotion recognition from the\nperspective of action recognition by exploring the application of deep learning\narchitectures specifically designed for action recognition, for continuous\naffect recognition. We propose a novel three-stream end-to-end deep learning\nregression pipeline with an attention mechanism, which is an ensemble design\nbased on sub-modules of multiple state-of-the-art action recognition systems.\nThe pipeline constitutes a novel data pre-processing approach with a spatial\nself-attention mechanism to extract keyframes. The optical flow of\nhigh-attention regions of the face is extracted to capture temporal context.\nAFEW-VA in-the-wild dataset has been used to conduct comparative experiments.\nQuantitative analysis shows that the proposed model outperforms multiple\nstandard baselines of both emotion recognition and action recognition models.",
+    "link": "http://arxiv.org/abs/2403.16263v1",
+    "published": "2024-03-24T18:53:57Z"
+  },
+  {
+    "title": "MMVA: Multimodal Matching Based on Valence and Arousal across Images,\n  Music, and Musical Captions",
+    "authors": [
+      "Suhwan Choi",
+      "Kyu Won Kim",
+      "Myungjoo Kang"
+    ],
+    "abstract": "We introduce Multimodal Matching based on Valence and Arousal (MMVA), a\ntri-modal encoder framework designed to capture emotional content across\nimages, music, and musical captions. To support this framework, we expand the\nImage-Music-Emotion-Matching-Net (IMEMNet) dataset, creating IMEMNet-C which\nincludes 24,756 images and 25,944 music clips with corresponding musical\ncaptions. We employ multimodal matching scores based on the continuous valence\n(emotional positivity) and arousal (emotional intensity) values. This\ncontinuous matching score allows for random sampling of image-music pairs\nduring training by computing similarity scores from the valence-arousal values\nacross different modalities. Consequently, the proposed approach achieves\nstate-of-the-art performance in valence-arousal prediction tasks. Furthermore,\nthe framework demonstrates its efficacy in various zeroshot tasks, highlighting\nthe potential of valence and arousal predictions in downstream applications.",
+    "link": "http://arxiv.org/abs/2501.01094v1",
+    "published": "2025-01-02T06:36:09Z"
+  }
+]
