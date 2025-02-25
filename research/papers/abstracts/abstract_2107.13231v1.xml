@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.13231v1%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.13231v1&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/qKEEN46cvEum5LsD/qkj/Rvg8D0</id>
+  <updated>2025-02-25T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.13231v1</id>
+    <updated>2021-07-28T09:22:18Z</updated>
+    <published>2021-07-28T09:22:18Z</published>
+    <title>On Perceived Emotion in Expressive Piano Performance: Further
+  Experimental Evidence for the Relevance of Mid-level Perceptual Features</title>
+    <summary>  Despite recent advances in audio content-based music emotion recognition, a
+question that remains to be explored is whether an algorithm can reliably
+discern emotional or expressive qualities between different performances of the
+same piece. In the present work, we analyze several sets of features on their
+effectiveness in predicting arousal and valence of six different performances
+(by six famous pianists) of Bach's Well-Tempered Clavier Book 1. These features
+include low-level acoustic features, score-based features, features extracted
+using a pre-trained emotion model, and Mid-level perceptual features. We
+compare their predictive power by evaluating them on several experiments
+designed to test performance-wise or piece-wise variations of emotion. We find
+that Mid-level features show significant contribution in performance-wise
+variation of both arousal and valence -- even better than the pre-trained
+emotion model. Our findings add to the evidence of Mid-level perceptual
+features being an important representation of musical attributes for several
+tasks -- specifically, in this case, for capturing the expressive aspects of
+music that manifest as perceived emotion of a musical performance.
+</summary>
+    <author>
+      <name>Shreyan Chowdhury</name>
+    </author>
+    <author>
+      <name>Gerhard Widmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">In Proceedings of the 22nd International Society for Music
+  Information Retrieval (ISMIR) Conference, Online, 2021</arxiv:comment>
+    <link href="http://arxiv.org/abs/2107.13231v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.13231v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

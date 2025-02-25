@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2312.06270v4%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2312.06270v4&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/TQTBqqOcZ4tC0X11AX2++J1dPR0</id>
+  <updated>2025-02-25T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2312.06270v4</id>
+    <updated>2025-02-12T07:40:16Z</updated>
+    <published>2023-12-11T10:15:35Z</published>
+    <title>Testing Correctness, Fairness, and Robustness of Speech Emotion
+  Recognition Models</title>
+    <summary>  Machine learning models for speech emotion recognition (SER) can be trained
+for different tasks and are usually evaluated based on a few available datasets
+per task. Tasks could include arousal, valence, dominance, emotional
+categories, or tone of voice. Those models are mainly evaluated in terms of
+correlation or recall, and always show some errors in their predictions. The
+errors manifest themselves in model behaviour, which can be very different
+along different dimensions even if the same recall or correlation is achieved
+by the model. This paper introduces a testing framework to investigate
+behaviour of speech emotion recognition models, by requiring different metrics
+to reach a certain threshold in order to pass a test. The test metrics can be
+grouped in terms of correctness, fairness, and robustness. It also provides a
+method for automatically specifying test thresholds for fairness tests, based
+on the datasets used, and recommendations on how to select the remaining test
+thresholds. We evaluated a xLSTM-based and nine transformer-based acoustic
+foundation models against a convolutional baseline model, testing their
+performance on arousal, valence, dominance, and emotional category
+classification. The test results highlight, that models with high correlation
+or recall might rely on shortcuts -- such as text sentiment --, and differ in
+terms of fairness.
+</summary>
+    <author>
+      <name>Anna Derington</name>
+    </author>
+    <author>
+      <name>Hagen Wierstorf</name>
+    </author>
+    <author>
+      <name>Ali Özkil</name>
+    </author>
+    <author>
+      <name>Florian Eyben</name>
+    </author>
+    <author>
+      <name>Felix Burkhardt</name>
+    </author>
+    <author>
+      <name>Björn W. Schuller</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.06270v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.06270v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

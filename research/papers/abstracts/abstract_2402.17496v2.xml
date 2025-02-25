@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2402.17496v2%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2402.17496v2&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/JYePx3VjcBuyExUMIel2z1TTmGY</id>
+  <updated>2025-02-25T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2402.17496v2</id>
+    <updated>2024-06-13T13:09:48Z</updated>
+    <published>2024-02-27T13:22:47Z</published>
+    <title>Emotional Voice Messages (EMOVOME) database: emotion recognition in
+  spontaneous voice messages</title>
+    <summary>  Emotional Voice Messages (EMOVOME) is a spontaneous speech dataset containing
+999 audio messages from real conversations on a messaging app from 100 Spanish
+speakers, gender balanced. Voice messages were produced in-the-wild conditions
+before participants were recruited, avoiding any conscious bias due to
+laboratory environment. Audios were labeled in valence and arousal dimensions
+by three non-experts and two experts, which were then combined to obtain a
+final label per dimension. The experts also provided an extra label
+corresponding to seven emotion categories. To set a baseline for future
+investigations using EMOVOME, we implemented emotion recognition models using
+both speech and audio transcriptions. For speech, we used the standard eGeMAPS
+feature set and support vector machines, obtaining 49.27% and 44.71% unweighted
+accuracy for valence and arousal respectively. For text, we fine-tuned a
+multilingual BERT model and achieved 61.15% and 47.43% unweighted accuracy for
+valence and arousal respectively. This database will significantly contribute
+to research on emotion recognition in the wild, while also providing a unique
+natural and freely accessible resource for Spanish.
+</summary>
+    <author>
+      <name>Lucía Gómez Zaragozá</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">HUMAN-tech Institute, Universitat Politènica de València, Valencia, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rocío del Amor</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">HUMAN-tech Institute, Universitat Politènica de València, Valencia, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elena Parra Vargas</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">HUMAN-tech Institute, Universitat Politènica de València, Valencia, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Valery Naranjo</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">HUMAN-tech Institute, Universitat Politènica de València, Valencia, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mariano Alcañiz Raya</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">HUMAN-tech Institute, Universitat Politènica de València, Valencia, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Javier Marín-Morales</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">HUMAN-tech Institute, Universitat Politènica de València, Valencia, Spain</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper has been superseded by arXiv:2403.02167 (merged from the
+  description of the EMOVOME database in arXiv:2402.17496v1 and the speech
+  emotion recognition models in arXiv:2403.02167v1)</arxiv:comment>
+    <link href="http://arxiv.org/abs/2402.17496v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2402.17496v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="I.5.1; I.5.4; I.2.7" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

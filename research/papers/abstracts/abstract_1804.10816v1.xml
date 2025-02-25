@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.10816v1%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.10816v1&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/QBNPJI4sQb9507QmVdhBOnIx3wQ</id>
+  <updated>2025-02-25T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.10816v1</id>
+    <updated>2018-04-28T15:08:41Z</updated>
+    <published>2018-04-28T15:08:41Z</published>
+    <title>Ladder Networks for Emotion Recognition: Using Unsupervised Auxiliary
+  Tasks to Improve Predictions of Emotional Attributes</title>
+    <summary>  Recognizing emotions using few attribute dimensions such as arousal, valence
+and dominance provides the flexibility to effectively represent complex range
+of emotional behaviors. Conventional methods to learn these emotional
+descriptors primarily focus on separate models to recognize each of these
+attributes. Recent work has shown that learning these attributes together
+regularizes the models, leading to better feature representations. This study
+explores new forms of regularization by adding unsupervised auxiliary tasks to
+reconstruct hidden layer representations. This auxiliary task requires the
+denoising of hidden representations at every layer of an auto-encoder. The
+framework relies on ladder networks that utilize skip connections between
+encoder and decoder layers to learn powerful representations of emotional
+dimensions. The results show that ladder networks improve the performance of
+the system compared to baselines that individually learn each attribute, and
+conventional denoising autoencoders. Furthermore, the unsupervised auxiliary
+tasks have promising potential to be used in a semi-supervised setting, where
+few labeled sentences are available.
+</summary>
+    <author>
+      <name>Srinivas Parthasarathy</name>
+    </author>
+    <author>
+      <name>Carlos Busso</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.21437/Interspeech.2018-1391</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.21437/Interspeech.2018-1391" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Submitted to Interspeech 2018</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Interspeech 2018, Hyderabad, India, September 2018, pp. 3698-3702</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1804.10816v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.10816v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

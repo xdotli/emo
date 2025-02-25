@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.01323v1%26start%3D0%26max_results%3D1" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.01323v1&amp;start=0&amp;max_results=1</title>
+  <id>http://arxiv.org/api/2zeGwVAtm1P2gwLqgt4/AYQcJhA</id>
+  <updated>2025-02-25T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.01323v1</id>
+    <updated>2020-01-31T03:11:24Z</updated>
+    <published>2020-01-31T03:11:24Z</published>
+    <title>Detecting Emotion Primitives from Speech and their use in discerning
+  Categorical Emotions</title>
+    <summary>  Emotion plays an essential role in human-to-human communication, enabling us
+to convey feelings such as happiness, frustration, and sincerity. While modern
+speech technologies rely heavily on speech recognition and natural language
+understanding for speech content understanding, the investigation of vocal
+expression is increasingly gaining attention. Key considerations for building
+robust emotion models include characterizing and improving the extent to which
+a model, given its training data distribution, is able to generalize to unseen
+data conditions. This work investigated a long-shot-term memory (LSTM) network
+and a time convolution - LSTM (TC-LSTM) to detect primitive emotion attributes
+such as valence, arousal, and dominance, from speech. It was observed that
+training with multiple datasets and using robust features improved the
+concordance correlation coefficient (CCC) for valence, by 30\% with respect to
+the baseline system. Additionally, this work investigated how emotion
+primitives can be used to detect categorical emotions such as happiness,
+disgust, contempt, anger, and surprise from neutral speech, and results
+indicated that arousal, followed by dominance was a better detector of such
+emotions.
+</summary>
+    <author>
+      <name>Vasudha Kowtha</name>
+    </author>
+    <author>
+      <name>Vikramjit Mitra</name>
+    </author>
+    <author>
+      <name>Chris Bartels</name>
+    </author>
+    <author>
+      <name>Erik Marchi</name>
+    </author>
+    <author>
+      <name>Sue Booker</name>
+    </author>
+    <author>
+      <name>William Caruso</name>
+    </author>
+    <author>
+      <name>Sachin Kajarekar</name>
+    </author>
+    <author>
+      <name>Devang Naik</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2002.01323v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.01323v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
